@@ -1,0 +1,3315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu.Help.Plugins.Text" xml:space="preserve">
+    <value>&amp;المكونات الإضافية</value>
+  </data>
+  <data name="RecolorTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لاستبدال اللون الثانوي باللون الأساسي.</value>
+  </data>
+  <data name="PenConfigWidget.Error.TooSmall.Format" xml:space="preserve">
+    <value>الحجم أصغر من {0}</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.KeepBackgroundCheckBox.Text" xml:space="preserve">
+    <value>الحفاظ على الخلفية</value>
+  </data>
+  <data name="Updates.ExtractingState.GenericError" xml:space="preserve">
+    <value>حدث خطأ أثناء فك ضغط التنزيل.</value>
+  </data>
+  <data name="MergeLayerDown.HistoryMementoName" xml:space="preserve">
+    <value>دمج الطبقة إلى الأسفل</value>
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.Quality.DisplayName" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="BlurEffect.ConfigDialog.SliderUnitsName" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.AbortedState" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TileEffect.SquareSize.Text" xml:space="preserve">
+    <value>حجم البلاطة</value>
+  </data>
+  <data name="Updates.CheckingState.GenericError" xml:space="preserve">
+    <value>حدث خطأ غير محدد أثناء التحقق من وجود تحديثات.</value>
+  </data>
+  <data name="ResizeDialog.PercentSignLabel.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ResamplingAlgorithm.SuperSampling" xml:space="preserve">
+    <value>أخذ عينات فائقة</value>
+  </data>
+  <data name="BmpFileType.ConfigUI.BitDepth.Bpp8.DisplayName" xml:space="preserve">
+    <value>8 بت</value>
+  </data>
+  <data name="Layer.Properties.Visible.Name" xml:space="preserve">
+    <value>الرؤية</value>
+  </data>
+  <data name="SaveAs.OverwriteConfirmation.Title" xml:space="preserve">
+    <value>تأكيد «حفظ باسم»</value>
+  </data>
+  <data name="FileDialog.PathTooLongException.Message" xml:space="preserve">
+    <value>اسم الملف طويل جدًا. يُرجى استخدام اسم أقصر.</value>
+  </data>
+  <data name="Menu.Effects.Text" xml:space="preserve">
+    <value>التأثي&amp;رات</value>
+  </data>
+  <data name="OilPaintingEffect.Name" xml:space="preserve">
+    <value>رسم زيتي</value>
+  </data>
+  <data name="ResizeAction.ProgressDialog.Description" xml:space="preserve">
+    <value>جارٍ تغيير الحجم...</value>
+  </data>
+  <data name="CloneStampTool.HelpText" xml:space="preserve">
+    <value>اضغط باستمرار على Ctrl وانقر بزر الماوس الأيسر لتحديد نقطة أصل. بعد ذلك، انقر بزر الماوس الأيسر وارسم للنسخ.</value>
+  </data>
+  <data name="CropAction.Name" xml:space="preserve">
+    <value>اقتصاص التحديد</value>
+  </data>
+  <data name="MandelbrotFractalEffect.Name" xml:space="preserve">
+    <value>كسورية ماندلبروت</value>
+  </data>
+  <data name="ControlShadow.BetaTag.Text.Format" xml:space="preserve">
+    <value>هذا إصدار تجريبي أولي، ويوصى به لأغراض الاختبار فقط. تنتهي صلاحيته في {1}. سيتوفر تحديث قبل ذلك.
+www.getpaint.net</value>
+  </data>
+  <data name="ColorsForm.RgbHeader.Text" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="SaveImage.Error.OutOfMemoryException" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لحفظ الصورة.</value>
+  </data>
+  <data name="DeselectAction.Name" xml:space="preserve">
+    <value>إلغاء التحديد</value>
+  </data>
+  <data name="UpdatesDialog.MoreInfoLink.Text" xml:space="preserve">
+    <value>مزيد من المعلومات...</value>
+  </data>
+  <data name="Form.OkButton.Text" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.ProgressText.Format" xml:space="preserve">
+    <value>{0} من {1}</value>
+  </data>
+  <data name="VignetteEffect.ConfigDialog.CenterLabel" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.SwatchOutLow.ToolTipText" xml:space="preserve">
+    <value>نقطة السواد للإخراج (انقر نقرًا مزدوجًا للاختيار)</value>
+  </data>
+  <data name="Effects.ApplyingDialog.Description" xml:space="preserve">
+    <value>جارٍ العرض...</value>
+  </data>
+  <data name="CommonAction.Deselect" xml:space="preserve">
+    <value>إلغاء التحديد</value>
+  </data>
+  <data name="JpegFileType.ConfigUI.Quality.DisplayName" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="Menu.Window.Text" xml:space="preserve">
+    <value>&amp;نافذة</value>
+  </data>
+  <data name="StatusBar.Context.Help.Text.Format" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Menu.Help.Tutorials.Text" xml:space="preserve">
+    <value>&amp;الدروس التعليمية</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.Text" xml:space="preserve">
+    <value>ضبط المستويات</value>
+  </data>
+  <data name="SetupWizard.IntroPage.QuickDescription.Text" xml:space="preserve">
+    <value>هذا هو الخيار الموصى به لمعظم المستخدمين. يجري التثبيت باستخدام الخيارات الافتراضية أو الخيارات نفسها التي حُددت أثناء تثبيت سابق.</value>
+  </data>
+  <data name="TwistEffect.Offset.Text" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.InvertColors.Description" xml:space="preserve">
+    <value>عكس الألوان</value>
+  </data>
+  <data name="Menu.View.ZoomIn.Text" xml:space="preserve">
+    <value>تكبير &amp;للداخل</value>
+  </data>
+  <data name="UnsavedChangesDialog.SaveButton.ExplanationText" xml:space="preserve">
+    <value>احفظ الصور الموجودة في القائمة أعلاه، ثم اخرج.</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.TensionLabel" xml:space="preserve">
+    <value>التوتر</value>
+  </data>
+  <data name="InkSketchEffect.ConfigDialog.ColoringLabel" xml:space="preserve">
+    <value>التلوين</value>
+  </data>
+  <data name="Menu.Layers.AddNewLayer.Text" xml:space="preserve">
+    <value>&amp;إضافة طبقة جديدة</value>
+  </data>
+  <data name="ResizeAction.PerformAction.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لتغيير حجم الصورة.</value>
+  </data>
+  <data name="MedianEffect.Name" xml:space="preserve">
+    <value>الوسيط</value>
+  </data>
+  <data name="HatchStyle.LargeConfetti" xml:space="preserve">
+    <value>قصاصات كبيرة</value>
+  </data>
+  <data name="ResizeDialog.ResampleMethod.Bicubic" xml:space="preserve">
+    <value>ثنائي التكعيب</value>
+  </data>
+  <data name="Effects.PluginLoadErrorsDialog.Text" xml:space="preserve">
+    <value>أخطاء تحميل المكونات الإضافية</value>
+  </data>
+  <data name="HistoryForm.FastForwardButton.ToolTipText" xml:space="preserve">
+    <value>إعادة الكل (تقديم سريع)</value>
+  </data>
+  <data name="ConfirmLanguageDialog.CancelTB.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.A8R8G8B8" xml:space="preserve">
+    <value>A8R8G8B8</value>
+  </data>
+  <data name="LevelsEffect.Name" xml:space="preserve">
+    <value>المستويات</value>
+  </data>
+  <data name="OilPaintingEffect.ConfigDialog.Amount1Label" xml:space="preserve">
+    <value>حجم الفرشاة</value>
+  </data>
+  <data name="GlowEffect.Amount3.Name" xml:space="preserve">
+    <value>التباين</value>
+  </data>
+  <data name="BitmapLayerPropertiesDialog.OpacityLabel.Text" xml:space="preserve">
+    <value>العتامة:</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.GreenMaskCheckBox.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.StartupState" xml:space="preserve">
+    <value>يجري تهيئة نظام تحديثات Paint.NET.</value>
+  </data>
+  <data name="OilPaintingEffect.ConfigDialog.Amount2Label" xml:space="preserve">
+    <value>خشونة</value>
+  </data>
+  <data name="SetupWizard.CreateMsiPage.HeaderText" xml:space="preserve">
+    <value>معالج النشر</value>
+  </data>
+  <data name="UserBlendOps.NegationBlendOp.Name" xml:space="preserve">
+    <value>نفي</value>
+  </data>
+  <data name="SaveImage.Error.Exception" xml:space="preserve">
+    <value>حدث خطأ غير محدد أثناء حفظ الملف.</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.BrowseButton.Text" xml:space="preserve">
+    <value>&amp;استعراض...</value>
+  </data>
+  <data name="BmpFileType.ConfigUI.BitDepth.Bpp24.DisplayName" xml:space="preserve">
+    <value>24 بت</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.ReadyToCheckState" xml:space="preserve">
+    <value>التحقق الآن</value>
+  </data>
+  <data name="WarnAboutFlattening.CancelTB.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.Zoom.DisplayName" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.ResetAllButton.Text" xml:space="preserve">
+    <value>&amp;إعادة ضبط الكل</value>
+  </data>
+  <data name="SetupWizard.IntroPage.IntroText.Text.Format" xml:space="preserve">
+    <value>سيساعدك هذا المثبّت على تثبيت {0}.
+
+اختر طريقة التثبيت التي تفضلها، ثم انقر فوق «التالي».</value>
+  </data>
+  <data name="ResizeDialog.PixelSizeHeader.Text" xml:space="preserve">
+    <value>حجم البكسل</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.DesktopShortcutCheckBox.Text" xml:space="preserve">
+    <value>إنشاء اختصار على سطح المكتب</value>
+  </data>
+  <data name="ToolConfigStrip.ResamplingLabel.Text" xml:space="preserve">
+    <value>الجودة:</value>
+  </data>
+  <data name="GlowEffect.Amount1.Name" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="EffectErrorMessage.InfoNotSupplied" xml:space="preserve">
+    <value>(غير متوفر)</value>
+  </data>
+  <data name="ToolConfigStrip.ColorPickerLabel.Text" xml:space="preserve">
+    <value>بعد النقر:</value>
+  </data>
+  <data name="PasteAction.Error.NotRecognized" xml:space="preserve">
+    <value>تعذر التعرف على الصورة الموجودة في الحافظة. حاول نسخها مرة أخرى باستخدام التطبيق الأصلي الذي استُخدم للحصول عليها.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.InputHistogramGroupBox.Text" xml:space="preserve">
+    <value>مدرج تكراري للإدخال</value>
+  </data>
+  <data name="MoveLayerDown.HistoryMementoName" xml:space="preserve">
+    <value>تحريك الطبقة إلى الأسفل</value>
+  </data>
+  <data name="GlowEffect.Amount2.Name" xml:space="preserve">
+    <value>السطوع</value>
+  </data>
+  <data name="EdgeDetectEffect.Name" xml:space="preserve">
+    <value>اكتشاف الحواف</value>
+  </data>
+  <data name="Layer.Properties.IsBackground.Name" xml:space="preserve">
+    <value>حالة الخلفية</value>
+  </data>
+  <data name="ResizeDialog.AsteriskTextLabel.SuperSampling" xml:space="preserve">
+    <value>* ستُستخدم تقنية أخذ العينات الفائقة</value>
+  </data>
+  <data name="FlattenAction.Question.DiscardHiddenLayers" xml:space="preserve">
+    <value>تجاهل الطبقات المخفية؟</value>
+  </data>
+  <data name="DocumentWorkspace.DeleteLayerButtonClicked.MustHaveOneLayer" xml:space="preserve">
+    <value>يجب أن تحتوي الصورة على طبقة واحدة على الأقل.</value>
+  </data>
+  <data name="SurfaceBlurEffect.Name" xml:space="preserve">
+    <value>تمويه السطح</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.DownloadingState" xml:space="preserve">
+    <value>يجري تنزيل تحديث Paint.NET.</value>
+  </data>
+  <data name="BmpFileType.Name" xml:space="preserve">
+    <value>صورة نقطية (BMP)</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.CheckForBetasCheckBox.Text" xml:space="preserve">
+    <value>التحقق أيضًا من الإصدارات التجريبية (بيتا)</value>
+  </data>
+  <data name="Menu.Image.Rotate90CW.Text" xml:space="preserve">
+    <value>تدوير &amp;90° مع اتجاه عقارب الساعة</value>
+  </data>
+  <data name="Menu.Layers.FlipVertical.Text" xml:space="preserve">
+    <value>قلب &amp;عمودي</value>
+  </data>
+  <data name="FrostedGlassEffect.Name" xml:space="preserve">
+    <value>زجاج مصنفر</value>
+  </data>
+  <data name="Menu.Layers.DuplicateLayer.Text" xml:space="preserve">
+    <value>&amp;تكرار الطبقة</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.HeaderRoll.Text" xml:space="preserve">
+    <value>تدوير / استدارة</value>
+  </data>
+  <data name="TwistEffect.TwistSize.Text" xml:space="preserve">
+    <value>الحجم</value>
+  </data>
+  <data name="ReduceNoise.Radius.DisplayName" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.SeedButtonText" xml:space="preserve">
+    <value>إعادة تهيئة البذرة</value>
+  </data>
+  <data name="LineTool.CurvingHelpText" xml:space="preserve">
+    <value>اضغط Enter لإنهاء المنحنى، أو ارسم في مكان آخر لبدء خط جديد. اضغط Ctrl للتبديل بين إظهار العقد وإخفائها.</value>
+  </data>
+  <data name="LineCap2.Arrow" xml:space="preserve">
+    <value>سهم</value>
+  </data>
+  <data name="DocumentWorkspace.InitializeEffects.DllLoadFailed.Format" xml:space="preserve">
+    <value>حدث خطأ أثناء تحميل {0}. قد يكون تالفًا أو قد يحتاج إلى إعادة تجميع.</value>
+  </data>
+  <data name="PngFileType.ConfigUI.Threshold.DisplayName" xml:space="preserve">
+    <value>حد الشفافية</value>
+  </data>
+  <data name="GradientType.Radial" xml:space="preserve">
+    <value>شعاعي</value>
+  </data>
+  <data name="CloseWorkspaceAction.CancelButton.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Effects.RepeatMenuItem.Format" xml:space="preserve">
+    <value>تكرار {0}</value>
+  </data>
+  <data name="DownloadAndUnzipUpdateDialog.Description.Downloading" xml:space="preserve">
+    <value>جارٍ التنزيل...</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.GreenMaskCheckBox.ToolTipText" xml:space="preserve">
+    <value>تبديل معالجة القناة الخضراء</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.RetryTB.ActionText" xml:space="preserve">
+    <value>&amp;إعادة المحاولة</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeSplitButton.Intersect.Text" xml:space="preserve">
+    <value>تقاطع</value>
+  </data>
+  <data name="UserBlendOps.DifferenceBlendOp.Name" xml:space="preserve">
+    <value>اختلاف</value>
+  </data>
+  <data name="Menu.Layers.ImportFromFile.Text" xml:space="preserve">
+    <value>&amp;استيراد من ملف...</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.AbortedState" xml:space="preserve">
+    <value>تم إيقاف برنامج التحديث.</value>
+  </data>
+  <data name="StatusBar.Context.SelectedArea.Text.WithAngle.Format" xml:space="preserve">
+    <value>أعلى يسار التحديد: {0}{1}، {2}{3}. حجم المستطيل المحيط: {4}{5} × {6}{7}. المساحة: {8} {9} مربعة. الزاوية: {10}°</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.TileSourceCheckBox.Text" xml:space="preserve">
+    <value>تبليط</value>
+  </data>
+  <data name="AlphaBlendingSplitButton.BlendingOverwrite.Text" xml:space="preserve">
+    <value>استبدال</value>
+  </data>
+  <data name="OpenImageAction.Name" xml:space="preserve">
+    <value>فتح صورة</value>
+  </data>
+  <data name="FrostedGlassEffect.ConfigDialog.MaxScatterRadius.DisplayName" xml:space="preserve">
+    <value>أقصى نصف قطر للتبعثر</value>
+  </data>
+  <data name="ZoomConfigWidget.Error.TooSmall" xml:space="preserve">
+    <value>يجب ألا يقل التكبير عن 1%</value>
+  </data>
+  <data name="WebExceptionStatus.ServerProtocolViolation" xml:space="preserve">
+    <value>لم تكن استجابة الخادم استجابة HTTP صالحة.</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.BlendModeHeader.Text" xml:space="preserve">
+    <value>وضع المزج</value>
+  </data>
+  <data name="Menu.Layers.FlipHorizontal.Text" xml:space="preserve">
+    <value>قلب &amp;أفقي</value>
+  </data>
+  <data name="HistoryForm.RewindButton.ToolTipText" xml:space="preserve">
+    <value>تراجع الكل (إرجاع سريع)</value>
+  </data>
+  <data name="NonAdminErrorBox.Message" xml:space="preserve">
+    <value>يجب أن تكون مسؤول نظام لتنفيذ هذا الإجراء.</value>
+  </data>
+  <data name="ZoomConfigWidget.Error.TooLarge" xml:space="preserve">
+    <value>لا يمكن أن يتجاوز التكبير 3200%</value>
+  </data>
+  <data name="PdnInfo.VersionString.Format" xml:space="preserve">
+    <value>{0} {1} الإصدار {2}</value>
+  </data>
+  <data name="HatchStyle.LightVertical" xml:space="preserve">
+    <value>عمودي فاتح</value>
+  </data>
+  <data name="UnfocusEffect.ConfigDialog.UnitsLabel" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="MeasurementUnit.Inch.Ratio" xml:space="preserve">
+    <value>بكسل/بوصة</value>
+  </data>
+  <data name="FileDialog.Types.AllImages" xml:space="preserve">
+    <value>كل أنواع الصور</value>
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.Offset.DisplayName" xml:space="preserve">
+    <value>الإزاحة</value>
+  </data>
+  <data name="ShapeDrawTypeConfigWidget.InteriorButton.ToolTipText" xml:space="preserve">
+    <value>رسم شكل ممتلئ</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.CheckingState" xml:space="preserve">
+    <value>يتحقق Paint.NET حاليًا من توفر إصدار أحدث.</value>
+  </data>
+  <data name="AddNoiseEffect.Amount2Label" xml:space="preserve">
+    <value>تشبع اللون</value>
+  </data>
+  <data name="Menu.Edit.PasteInToNewImage.Text" xml:space="preserve">
+    <value>لصق في &amp;صورة جديدة</value>
+  </data>
+  <data name="PencilSketchEffect.ConfigDialog.RangeLabel" xml:space="preserve">
+    <value>النطاق</value>
+  </data>
+  <data name="ColorsForm.ValueLabel.Text" xml:space="preserve">
+    <value>V:</value>
+  </data>
+  <data name="LoadImage.Error.SerializationException" xml:space="preserve">
+    <value>الملف تالف أو محفوظ بإصدار أحدث من Paint.NET.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.HistogramInput.ToolTipText" xml:space="preserve">
+    <value>يعرض هذا المدرج التكراري توزيع الألوان في الصورة الأصلية.</value>
+  </data>
+  <data name="NewLayerAction.Error.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لإنشاء طبقة جديدة.</value>
+  </data>
+  <data name="GifFileType.ConfigUI.Threshold.DisplayName" xml:space="preserve">
+    <value>حد الشفافية</value>
+  </data>
+  <data name="AddNoiseEffect.Amount1Label" xml:space="preserve">
+    <value>الشدة</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.RoughnessLabel" xml:space="preserve">
+    <value>خشونة</value>
+  </data>
+  <data name="EraseSelectionAction.Name" xml:space="preserve">
+    <value>مسح التحديد</value>
+  </data>
+  <data name="LoadImage.Error.SecurityException" xml:space="preserve">
+    <value>تم رفض الوصول إلى الملف المطلوب (استثناء أمني).</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.CheckForUpdatesCheckBox.Text" xml:space="preserve">
+    <value>التحقق تلقائيًا من وجود تحديثات</value>
+  </data>
+  <data name="ExpandCanvasQuestion.CancelTB.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="ColorsForm.ColorDeleteButton.ToolTipText" xml:space="preserve">
+    <value>حذف اللون من لوحة الألوان</value>
+  </data>
+  <data name="MeasurementUnit.Inch.Plural" xml:space="preserve">
+    <value>بوصات</value>
+  </data>
+  <data name="ToolsControl.ToolToolTip.Format" xml:space="preserve">
+    <value>{0}
+مفتاح الاختصار: {1}</value>
+  </data>
+  <data name="HatchStyle.SmallCheckerBoard" xml:space="preserve">
+    <value>لوحة مربعات صغيرة</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.AlphaBlendingAntialiasing.HeaderLabel.Text" xml:space="preserve">
+    <value>التحويل إلى نقط</value>
+  </data>
+  <data name="HatchStyle.DashedDownwardDiagonal" xml:space="preserve">
+    <value>قطري متقطع إلى الأسفل</value>
+  </data>
+  <data name="SaveConfigDialog.Text" xml:space="preserve">
+    <value>حفظ التكوين</value>
+  </data>
+  <data name="SendFeedback.Email.Subject.Format" xml:space="preserve">
+    <value>ملاحظات حول: {0}</value>
+  </data>
+  <data name="Setup.DesktopShortcut.LinkName" xml:space="preserve">
+    <value>Paint.NET</value>
+  </data>
+  <data name="SwapLayerFunction.Name" xml:space="preserve">
+    <value>تبديل الطبقة</value>
+  </data>
+  <data name="ResizeDialog.ConstrainCheckBox.Text" xml:space="preserve">
+    <value>&amp;الحفاظ على نسبة العرض إلى الارتفاع</value>
+  </data>
+  <data name="TextConfigWidget.Error.InvalidNumber" xml:space="preserve">
+    <value>رقم غير صالح</value>
+  </data>
+  <data name="Form.CancelButton.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="UpdatesOptionsDialog.AutoCheckBox.Text" xml:space="preserve">
+    <value>التحقق تلقائيًا من الإصدارات الأحدث من Paint.NET</value>
+  </data>
+  <data name="ZoomBlurEffect.Name" xml:space="preserve">
+    <value>تمويه التكبير</value>
+  </data>
+  <data name="LayerForm.DuplicateLayerButton.ToolTipText" xml:space="preserve">
+    <value>تكرار الطبقة</value>
+  </data>
+  <data name="GifFileType.ConfigUI.DitherLevel.DisplayName" xml:space="preserve">
+    <value>مستوى التدرج</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.ScaleLabel" xml:space="preserve">
+    <value>تحجيم</value>
+  </data>
+  <data name="Menu.Edit.Redo.Text" xml:space="preserve">
+    <value>&amp;إعادة</value>
+  </data>
+  <data name="WebExceptionStatus.UnknownError" xml:space="preserve">
+    <value>حدث استثناء من نوع غير معروف.</value>
+  </data>
+  <data name="UserBlendOps.LightenBlendOp.Name" xml:space="preserve">
+    <value>تفتيح</value>
+  </data>
+  <data name="Menu.View.Rulers.Text" xml:space="preserve">
+    <value>&amp;المساطر</value>
+  </data>
+  <data name="SoftenPortraitEffect.ConfigDialog.SoftnessLabel" xml:space="preserve">
+    <value>النعومة</value>
+  </data>
+  <data name="ColorTransferMode.Luminosity" xml:space="preserve">
+    <value>الإضاءة</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.Text" xml:space="preserve">
+    <value>تمويه الحركة</value>
+  </data>
+  <data name="AngleChooserConfigDialog.DegreeLabel.Text" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="ToleranceSliderControl.Tolerance" xml:space="preserve">
+    <value>التفاوت</value>
+  </data>
+  <data name="GradientTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لبدء الرسم. يؤدي الضغط باستمرار على Shift إلى تقييد الزاوية. يعكس زر الماوس الأيمن الألوان.</value>
+  </data>
+  <data name="SelectionTool.RotateSelection" xml:space="preserve">
+    <value>تدوير التحديد</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Installing.Format" xml:space="preserve">
+    <value>جارٍ تثبيت {0}...</value>
+  </data>
+  <data name="HatchStyle.DottedGrid" xml:space="preserve">
+    <value>شبكة منقّطة</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.SwatchInLow.ToolTipText" xml:space="preserve">
+    <value>نقطة السواد للإدخال (انقر نقرًا مزدوجًا للاختيار)</value>
+  </data>
+  <data name="BrightnessAndContrastAdjustment.Brightness" xml:space="preserve">
+    <value>السطوع</value>
+  </data>
+  <data name="AcquireImageAction.Name" xml:space="preserve">
+    <value>الحصول على صورة</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeSplitButton.Xor.Text" xml:space="preserve">
+    <value>عكس (&quot;xor&quot;)</value>
+  </data>
+  <data name="ColorsForm.ColorPalettesButton.ResetToDefaultPalette.Text" xml:space="preserve">
+    <value>&amp;استعادة لوحة الألوان الافتراضية</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.InstallingState" xml:space="preserve">
+    <value>جارٍ تثبيت التحديث!</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.AuxButton1.Text" xml:space="preserve">
+    <value>تفاصيل الخطأ...</value>
+  </data>
+  <data name="CurveControlRgb.Green" xml:space="preserve">
+    <value>أخضر</value>
+  </data>
+  <data name="Layer.Properties.Opacity.Name" xml:space="preserve">
+    <value>العتامة</value>
+  </data>
+  <data name="MoveSelectionTool.Name" xml:space="preserve">
+    <value>تحريك التحديد</value>
+  </data>
+  <data name="LayerForm.MoveLayerDownButton.ToolTipText" xml:space="preserve">
+    <value>تحريك الطبقة إلى الأسفل</value>
+  </data>
+  <data name="ColorsForm.SaturationLabel.Text" xml:space="preserve">
+    <value>S:</value>
+  </data>
+  <data name="TextConfigWidget.AlignLeftButton.ToolTipText" xml:space="preserve">
+    <value>محاذاة إلى اليسار</value>
+  </data>
+  <data name="LayerForm.MoveLayerUpButton.ToolTipText" xml:space="preserve">
+    <value>تحريك الطبقة إلى الأعلى</value>
+  </data>
+  <data name="Menu.Image.Flatten.Text" xml:space="preserve">
+    <value>&amp;تسطيح</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.Text" xml:space="preserve">
+    <value>منحنيات</value>
+  </data>
+  <data name="PixelateEffect.ConfigDialog.SliderLabel" xml:space="preserve">
+    <value>حجم الخلية</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.BadDirError.Message" xml:space="preserve">
+    <value>تعذر إنشاء المجلد المحدد. عليك اختيار مجلد آخر للتثبيت فيه.</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.DoneState" xml:space="preserve">
+    <value>لا تتوفر تحديثات حاليًا.</value>
+  </data>
+  <data name="Effects.Blurring.Submenu.Name" xml:space="preserve">
+    <value>تمويه</value>
+  </data>
+  <data name="EllipseSelectTool.Name" xml:space="preserve">
+    <value>تحديد بيضاوي</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.A8B8G8R8" xml:space="preserve">
+    <value>A8B8G8R8</value>
+  </data>
+  <data name="UserBlendOps.DarkenBlendOp.Name" xml:space="preserve">
+    <value>تعتيم</value>
+  </data>
+  <data name="MoveTool.HelpText" xml:space="preserve">
+    <value>اسحب التحديد لتحريكه. اسحب العقد لتحجيمه. اسحب بزر الماوس الأيمن لتدويره.</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.AdditionalOptions.Text" xml:space="preserve">
+    <value>خيارات إضافية</value>
+  </data>
+  <data name="TwistEffect.Name" xml:space="preserve">
+    <value>التواء</value>
+  </data>
+  <data name="Menu.View.ZoomIn.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl++</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.LoadFromToolBarButton.Text" xml:space="preserve">
+    <value>&amp;تحميل من شريط الأدوات</value>
+  </data>
+  <data name="UserBlendOps.GlowBlendOp.Name" xml:space="preserve">
+    <value>توهج</value>
+  </data>
+  <data name="ConfirmLanguageDialog.CancelTB.ExplanationText" xml:space="preserve">
+    <value>لن يؤدي ذلك إلى إغلاق Paint.NET. سيتم إلغاء اختيار اللغة.</value>
+  </data>
+  <data name="WebExceptionStatus.ProxyNameResolutionFailure" xml:space="preserve">
+    <value>تعذر على خدمة تحليل الأسماء حل اسم مضيف الوكيل.</value>
+  </data>
+  <data name="SelectionTool.ScaleSelection" xml:space="preserve">
+    <value>تحجيم التحديد</value>
+  </data>
+  <data name="PenConfigWidget.Error.InvalidNumber" xml:space="preserve">
+    <value>رقم غير صالح</value>
+  </data>
+  <data name="ResizeAction.Name" xml:space="preserve">
+    <value>تغيير الحجم</value>
+  </data>
+  <data name="TwoAmountsConfigDialog.Reset.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeSplitButton.FixedSize.Text" xml:space="preserve">
+    <value>حجم ثابت</value>
+  </data>
+  <data name="Menu.Layers.Text" xml:space="preserve">
+    <value>&amp;الطبقات</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeSplitButton.Replace.Text" xml:space="preserve">
+    <value>استبدال</value>
+  </data>
+  <data name="PngFileType.ConfigUI.DitherLevel.DisplayName" xml:space="preserve">
+    <value>مستوى التدرج</value>
+  </data>
+  <data name="ToolConfigStrip.PenEndCapSplitButton.ToolTipText" xml:space="preserve">
+    <value>تبديل غطاء نهاية الخط
+مفتاح الاختصار: /</value>
+  </data>
+  <data name="Menu.File.ViewPluginLoadErrors.Text" xml:space="preserve">
+    <value>&amp;عرض أخطاء تحميل المكونات الإضافية...</value>
+  </data>
+  <data name="ClearHistory.Confirmation" xml:space="preserve">
+    <value>مسح السجل؟</value>
+  </data>
+  <data name="RadialBlurEffect.ConfigDialog.RadialLabel" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.Amount.DisplayName" xml:space="preserve">
+    <value>المقدار</value>
+  </data>
+  <data name="WarnAboutFlattening.CancelTB.ExplanationText" xml:space="preserve">
+    <value>إلغاء إجراء الحفظ.</value>
+  </data>
+  <data name="Menu.Image.CanvasSize.Text" xml:space="preserve">
+    <value>حجم &amp;لوحة الرسم...</value>
+  </data>
+  <data name="TileEffect.Intensity.Text" xml:space="preserve">
+    <value>الانحناء</value>
+  </data>
+  <data name="LoadImage.Error.IOException" xml:space="preserve">
+    <value>حدث خطأ أثناء قراءة الملف من وسيط التخزين.</value>
+  </data>
+  <data name="Menu.Help.About.Text" xml:space="preserve">
+    <value>&amp;حول</value>
+  </data>
+  <data name="PenConfigWidget.Error.TooLarge.Format" xml:space="preserve">
+    <value>الحجم أكبر من {0}</value>
+  </data>
+  <data name="UnsavedChangesDialog.DocumentListHeader.Text" xml:space="preserve">
+    <value>الصور</value>
+  </data>
+  <data name="DashStyle.Dash" xml:space="preserve">
+    <value>شرطات</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.CloseSRPoint" xml:space="preserve">
+    <value>جارٍ إنشاء نقطة استعادة النظام...</value>
+  </data>
+  <data name="ResizeDialog.ResampleMethod.SuperSampling" xml:space="preserve">
+    <value>أفضل جودة</value>
+  </data>
+  <data name="MeasurementUnit.Pixel" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.X8B8G8R8" xml:space="preserve">
+    <value>X8B8G8R8</value>
+  </data>
+  <data name="Menu.File.Text" xml:space="preserve">
+    <value>&amp;ملف</value>
+  </data>
+  <data name="UpdatesDialog.NewVersionHeader.Text" xml:space="preserve">
+    <value>إصدار جديد</value>
+  </data>
+  <data name="DashStyle.Custom" xml:space="preserve">
+    <value>مخصص_غير_مستخدم</value>
+  </data>
+  <data name="TgaFileType.ConfigUI.BitDepth.Bpp24.DisplayName" xml:space="preserve">
+    <value>24 بت</value>
+  </data>
+  <data name="TextConfigWidget.UnderlineButton.ToolTipText" xml:space="preserve">
+    <value>تسطير</value>
+  </data>
+  <data name="RedEyeRemoveEffect.ConfigDialog.Amount1Label" xml:space="preserve">
+    <value>التفاوت</value>
+  </data>
+  <data name="SaveImage.Error.UnauthorizedAccessException" xml:space="preserve">
+    <value>تم رفض الوصول. استخدم «ملف» -&gt; «حفظ باسم...» للحفظ في موقع أو باسم مختلف.</value>
+  </data>
+  <data name="UserBlendOps.XorBlendOp.Name" xml:space="preserve">
+    <value>Xor</value>
+  </data>
+  <data name="EllipseSelectTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم تحديد بيضاوي. اضغط باستمرار على Shift لتقييد الشكل بدائرة.</value>
+  </data>
+  <data name="Startup.UnhandledError.Format" xml:space="preserve">
+    <value>حدث خطأ لم تتم معالجته، ويجب إغلاق Paint.NET. راجع الملف &apos;{0}&apos; الموجود على سطح المكتب لمزيد من المعلومات.</value>
+  </data>
+  <data name="HatchStyle.Wave" xml:space="preserve">
+    <value>موجة</value>
+  </data>
+  <data name="Error.OSRequirement" xml:space="preserve">
+    <value>يتطلب Paint.NET نظام Windows XP SP2 أو Windows Vista أو Windows Server 2003 أو إصدارًا أحدث.</value>
+  </data>
+  <data name="MoveTool.HistoryMemento.Scale" xml:space="preserve">
+    <value>تحجيم وحدات البكسل</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.HistogramOutput.ToolTipText" xml:space="preserve">
+    <value>يعرض هذا المدرج التكراري معاينة لتوزيع الألوان في الصورة الناتجة</value>
+  </data>
+  <data name="MeasurementUnit.Pixel.Abbreviation" xml:space="preserve">
+    <value>px</value>
+  </data>
+  <data name="PdnInfo.FriendlyVersionString.ConfigWithSpace.Format" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="WarnAboutFlattening.FlattenTB.ExplanationText" xml:space="preserve">
+    <value>سيتم تسطيح الصورة ثم حفظها. ستتمكن من التراجع عن عملية التسطيح بعد اكتمال الحفظ.</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.Title" xml:space="preserve">
+    <value>خطأ في المكون الإضافي</value>
+  </data>
+  <data name="ColorsForm.HueLabel.Text" xml:space="preserve">
+    <value>H:</value>
+  </data>
+  <data name="WebExceptionStatus.ConnectionClosed" xml:space="preserve">
+    <value>أُغلق الاتصال قبل اكتماله.</value>
+  </data>
+  <data name="WebExceptionStatus.ProtocolError" xml:space="preserve">
+    <value>كانت الاستجابة المستلمة من الخادم مكتملة، لكنها أشارت إلى خطأ على مستوى البروتوكول. على سبيل المثال، ستؤدي حالة خطأ HTTP مثل 401 (تم رفض الوصول) إلى هذه الحالة.</value>
+  </data>
+  <data name="ColorsForm.BlueLabel.Text" xml:space="preserve">
+    <value>B:</value>
+  </data>
+  <data name="LayerPropertiesDialog.NameLabel.Text" xml:space="preserve">
+    <value>الاسم:</value>
+  </data>
+  <data name="TileEffect.Rotation.Text" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="ColorsForm.GreenLabel.Text" xml:space="preserve">
+    <value>G:</value>
+  </data>
+  <data name="HatchStyle.BackwardDiagonal" xml:space="preserve">
+    <value>قطري إلى الخلف</value>
+  </data>
+  <data name="CloseWorkspaceAction.CancelButton.ExplanationText" xml:space="preserve">
+    <value>العودة إلى Paint.NET.</value>
+  </data>
+  <data name="InkSketchEffect.Name" xml:space="preserve">
+    <value>رسم بالحبر</value>
+  </data>
+  <data name="RectangleTool.Name" xml:space="preserve">
+    <value>مستطيل</value>
+  </data>
+  <data name="ConfirmLanguageDialog.IntroText" xml:space="preserve">
+    <value>يتطلب تغيير اللغة إعادة تشغيل Paint.NET.</value>
+  </data>
+  <data name="Menu.View.Grid.Text" xml:space="preserve">
+    <value>&amp;الشبكة</value>
+  </data>
+  <data name="FragmentEffect.Name" xml:space="preserve">
+    <value>جزء</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.ErrorState" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.Angle.DisplayName" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.SwatchInHigh.ToolTipText" xml:space="preserve">
+    <value>نقطة البياض للإدخال (انقر نقرًا مزدوجًا للاختيار)</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.SwatchOutHigh.ToolTipText" xml:space="preserve">
+    <value>نقطة البياض للإخراج (انقر نقرًا مزدوجًا للاختيار)</value>
+  </data>
+  <data name="FragmentEffect.ConfigDialog.Rotation.DisplayName" xml:space="preserve">
+    <value>دوران</value>
+  </data>
+  <data name="HistoryForm.RedoButton.ToolTipText" xml:space="preserve">
+    <value>إعادة (خطوة إلى الأمام)</value>
+  </data>
+  <data name="WhichUserColor.Primary" xml:space="preserve">
+    <value>أساسي</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.EdgeBehavior.Wrap.DisplayName" xml:space="preserve">
+    <value>التفاف</value>
+  </data>
+  <data name="DashStyle.Solid" xml:space="preserve">
+    <value>مصمت</value>
+  </data>
+  <data name="EffectErrorMessage.HeaderFormat" xml:space="preserve">
+    <value>{0} من {1}</value>
+  </data>
+  <data name="UpdatesDialog.InstallButton.Text" xml:space="preserve">
+    <value>تثبيت</value>
+  </data>
+  <data name="HatchStyle.ForwardDiagonal" xml:space="preserve">
+    <value>قطري إلى الأمام</value>
+  </data>
+  <data name="ZoomConfigWidget.Percentage.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.RedMaskCheckBox.ToolTipText" xml:space="preserve">
+    <value>تبديل معالجة القناة الحمراء</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.ToleranceFloodMode.HeaderLabel.Text" xml:space="preserve">
+    <value>العصا السحرية، ودلو الطلاء، وإعادة التلوين</value>
+  </data>
+  <data name="AnchorEdge.TopRight" xml:space="preserve">
+    <value>أعلى اليمين</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.SkipTB.ExplanationText" xml:space="preserve">
+    <value>تخطي هذه الصورة والانتقال إلى الصورة التالية.</value>
+  </data>
+  <data name="RadialBlurEffect.Name" xml:space="preserve">
+    <value>تمويه شعاعي</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.ExtractingState" xml:space="preserve">
+    <value>تم تنزيل التحديث، ويجري الآن استخراجه والتحقق منه.</value>
+  </data>
+  <data name="RotateAction.180" xml:space="preserve">
+    <value>180°</value>
+  </data>
+  <data name="WebExceptionStatus.PipelineFailure" xml:space="preserve">
+    <value>حدث خطأ داخلي في .NET (WebExceptionStatus.PipelineFailure).</value>
+  </data>
+  <data name="ProgressDialog.PercentText.Text.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ColorsForm.ColorPalettesButton.SaveCurrentPaletteAs.Text" xml:space="preserve">
+    <value>حفظ لوحة الألوان الحالية &amp;باسم...</value>
+  </data>
+  <data name="TextTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لوضع مؤشر النص، ثم اكتب لإدخال النص. يُرسم النص باللون الأساسي.</value>
+  </data>
+  <data name="VignetteEffect.Name" xml:space="preserve">
+    <value>التظليل الطرفي</value>
+  </data>
+  <data name="SaveConfigDialog.DefaultsButton.Text" xml:space="preserve">
+    <value>&amp;الافتراضيات</value>
+  </data>
+  <data name="PasteAction.Error.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية للصق من الحافظة.</value>
+  </data>
+  <data name="UpdatesOptionsDialog.Text" xml:space="preserve">
+    <value>خيارات تحديث Paint.NET</value>
+  </data>
+  <data name="EraserTool.Name" xml:space="preserve">
+    <value>ممحاة</value>
+  </data>
+  <data name="PaintBucketTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لتعبئة منطقة باللون الأساسي، وانقر بزر الماوس الأيمن لتعبئتها باللون الثانوي</value>
+  </data>
+  <data name="ImportFromFileAction.ImportOneLayer.OutOfMemory" xml:space="preserve">
+    <value>نفدت الذاكرة أثناء محاولة تغيير حجم الطبقة.</value>
+  </data>
+  <data name="SystemLayer.UserDataDirName" xml:space="preserve">
+    <value>ملفات مستخدم Paint.NET</value>
+  </data>
+  <data name="CrashLog.HeaderText.Format" xml:space="preserve">
+    <value>أُنشئ هذا الملف النصي بسبب تعطل Paint.NET.
+يُرجى إرسال هذا الملف بالبريد الإلكتروني إلى {0} حتى نتمكن من تشخيص المشكلة وإصلاحها.</value>
+  </data>
+  <data name="Menu.File.New.Text" xml:space="preserve">
+    <value>&amp;جديد...</value>
+  </data>
+  <data name="RedEyeRemoveEffect.ConfigDialog.Amount2Label" xml:space="preserve">
+    <value>نسبة التشبع</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.SkipTB.ActionText" xml:space="preserve">
+    <value>&amp;تخطي</value>
+  </data>
+  <data name="Menu.Edit.Copy.Text" xml:space="preserve">
+    <value>&amp;نسخ</value>
+  </data>
+  <data name="CloneStampTool.Name" xml:space="preserve">
+    <value>ختم الاستنساخ</value>
+  </data>
+  <data name="HatchStyle.NarrowHorizontal" xml:space="preserve">
+    <value>أفقي ضيق</value>
+  </data>
+  <data name="ExpandCanvasQuestion.NoTB.ExplanationText" xml:space="preserve">
+    <value>لن يتم توسيع لوحة الرسم. سيتعين عليك تحريك الصورة الملصقة للتأكد من وجود الجزء الذي تريده ضمن حدود لوحة الرسم.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.BlueMaskCheckBox.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="UserBlendOps.ScreenBlendOp.Name" xml:space="preserve">
+    <value>الشاشة</value>
+  </data>
+  <data name="LayerForm.MergeLayerDownButton.ToolTipText" xml:space="preserve">
+    <value>دمج الطبقة إلى الأسفل</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.IterativeFit.Text" xml:space="preserve">
+    <value>ملاءمة تكرارية (الأبطأ/أعلى جودة)</value>
+  </data>
+  <data name="RadialBlurEffect.ConfigDialog.OffsetLabel" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="HatchStyle.WideDownwardDiagonal" xml:space="preserve">
+    <value>قطري عريض إلى الأسفل</value>
+  </data>
+  <data name="Menu.Help.Forum.Text" xml:space="preserve">
+    <value>&amp;المنتدى</value>
+  </data>
+  <data name="UnsavedChangesDialog.SaveButton.ActionText" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="ShapeDrawTypeConfigWidget.BothButton.ToolTipText" xml:space="preserve">
+    <value>رسم شكل ممتلئ مع مخطط</value>
+  </data>
+  <data name="WebExceptionStatus.RequestCanceled" xml:space="preserve">
+    <value>حدث خطأ داخلي (WebExceptionStatus.RequestCanceled)</value>
+  </data>
+  <data name="TgaFileType.ConfigUI.BitDepth.DisplayName" xml:space="preserve">
+    <value>عمق البت</value>
+  </data>
+  <data name="Menu.Image.Rotate90CCW.Text" xml:space="preserve">
+    <value>تدوير 90° عكس اتجاه عقارب الساعة</value>
+  </data>
+  <data name="GradientTool.Name" xml:space="preserve">
+    <value>تدرج</value>
+  </data>
+  <data name="MainToolBarForm.Text" xml:space="preserve">
+    <value>الأدوات</value>
+  </data>
+  <data name="SetupWizard.CancelButton.Text" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="PngFileType.ConfigUI.BitDepth.Bpp24.DisplayName" xml:space="preserve">
+    <value>24 بت</value>
+  </data>
+  <data name="FontSmoothing.Sharp" xml:space="preserve">
+    <value>حاد</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.FolderLabel.Text" xml:space="preserve">
+    <value>المجلد:</value>
+  </data>
+  <data name="DashStyle.DashDot" xml:space="preserve">
+    <value>شرطة، نقطة</value>
+  </data>
+  <data name="Setup.DesktopShortcut.Description" xml:space="preserve">
+    <value>إنشاء الصور والصور الفوتوغرافية وتحريرها ومسحها ضوئيًا وطباعتها.</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeLabel.Text" xml:space="preserve">
+    <value>وضع الرسم:</value>
+  </data>
+  <data name="LoadImage.Error.UnauthorizedAccessException" xml:space="preserve">
+    <value>تم رفض الوصول إلى الملف المطلوب (وصول غير مصرّح به).</value>
+  </data>
+  <data name="ToolChooserStrip.ChooseToolDefaults.Text" xml:space="preserve">
+    <value>&amp;اختيار الإعدادات الافتراضية...</value>
+  </data>
+  <data name="MeasurementUnit.Inch" xml:space="preserve">
+    <value>بوصة</value>
+  </data>
+  <data name="SaveImage.Error.IOException" xml:space="preserve">
+    <value>حدث خطأ إدخال/إخراج أثناء الكتابة إلى الملف.</value>
+  </data>
+  <data name="Menu.Help.SendFeedback.Text" xml:space="preserve">
+    <value>إرسال ملاحظات أو تقرير خطأ...</value>
+  </data>
+  <data name="Menu.Help.Donate.Text" xml:space="preserve">
+    <value>&amp;تبرع...</value>
+  </data>
+  <data name="StatusBar.Context.SelectedArea.Text.Format" xml:space="preserve">
+    <value>أعلى يسار التحديد: {0}{1}، {2}{3}. حجم المستطيل المحيط: {4}{5} × {6}{7}. المساحة: {8} {9} مربعة</value>
+  </data>
+  <data name="UserBlendOps.ColorBurnBlendOp.Name" xml:space="preserve">
+    <value>احتراق الألوان</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.TwistAngleLabel.Text" xml:space="preserve">
+    <value>زاوية الالتواء:</value>
+  </data>
+  <data name="MoveSelectionTool.HelpText" xml:space="preserve">
+    <value>اسحب التحديد لتحريكه. اسحب العقد لتحجيمه. اسحب بزر الماوس الأيمن لتدويره.</value>
+  </data>
+  <data name="FragmentEffect.ConfigDialog.Distance.DisplayName" xml:space="preserve">
+    <value>المسافة</value>
+  </data>
+  <data name="PixelateEffect.ConfigDialog.SliderUnitsName" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="ResizeDialog.CurrentImageSizeLabel.Text" xml:space="preserve">
+    <value>حجم الصورة الحالي:</value>
+  </data>
+  <data name="SetupWizard.IntroPage.HeaderText" xml:space="preserve">
+    <value>معالج الإعداد</value>
+  </data>
+  <data name="ExpandCanvasQuestion.YesTB.ExplanationText" xml:space="preserve">
+    <value>توسيع لوحة الرسم تلقائيًا لتلائم الصورة التي يجري لصقها.</value>
+  </data>
+  <data name="TextConfigWidget.BoldButton.ToolTipText" xml:space="preserve">
+    <value>عريض</value>
+  </data>
+  <data name="MoveSelectionTool.HistoryMemento.Rotate" xml:space="preserve">
+    <value>تدوير التحديد</value>
+  </data>
+  <data name="RotateAction.90CCW" xml:space="preserve">
+    <value>90° عكس اتجاه عقارب الساعة</value>
+  </data>
+  <data name="Menu.Edit.Paste.Text" xml:space="preserve">
+    <value>&amp;لصق</value>
+  </data>
+  <data name="FreeformShapeTool.Name" xml:space="preserve">
+    <value>شكل حر</value>
+  </data>
+  <data name="PencilTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لرسم خطوط حرة بعرض بكسل واحد باللون الأساسي، وانقر بزر الماوس الأيمن لاستخدام اللون الثانوي</value>
+  </data>
+  <data name="HatchStyle.Horizontal" xml:space="preserve">
+    <value>أفقي</value>
+  </data>
+  <data name="FlipLayerHorizontalAction.Name" xml:space="preserve">
+    <value>قلب أفقي</value>
+  </data>
+  <data name="ZoomBasis.Selection" xml:space="preserve">
+    <value>تحديد</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.DoNotRestartTB.ActionText" xml:space="preserve">
+    <value>عدم إعادة تشغيل Paint.NET (غير مستحسن)</value>
+  </data>
+  <data name="LayerPropertiesDialog.Text" xml:space="preserve">
+    <value>خصائص الطبقة</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.AutoButton.Text" xml:space="preserve">
+    <value>تلقائي</value>
+  </data>
+  <data name="MoveSelectionTool.HistoryMemento.DropSelection" xml:space="preserve">
+    <value>إنهاء التحديد</value>
+  </data>
+  <data name="OutlineEffect.ConfigDialog.IntensityLabel" xml:space="preserve">
+    <value>الشدة</value>
+  </data>
+  <data name="DownloadAndUnzipUpdateDialog.Error.Generic" xml:space="preserve">
+    <value>حدث خطأ أثناء تنزيل الإصدار الجديد وتثبيته. يُرجى إعادة المحاولة لاحقًا باستخدام أمر القائمة «تعليمات» -&gt; «التحقق من وجود تحديثات...».</value>
+  </data>
+  <data name="WIA.Error.UnableToLoad" xml:space="preserve">
+    <value>مكتبة Windows Image Acquisition (WIA) «wiaaut.dll» غير متوفرة. يُرجى قراءة ملف التعليمات (القائمة «تعليمات» -&gt; «مواضيع التعليمات») والاطلاع على موضوع الأسئلة المتكررة للحصول على معلومات حول استكشاف الأخطاء وإصلاحها.</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.Coordinates.Format" xml:space="preserve">
+    <value>({0}, {1})</value>
+  </data>
+  <data name="GradientType.LinearDiamond" xml:space="preserve">
+    <value>مُعيّن</value>
+  </data>
+  <data name="CanvasSizeAction.ResizeDocument.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لتغيير حجم لوحة الرسم.</value>
+  </data>
+  <data name="BlurEffect.Name" xml:space="preserve">
+    <value>تمويه غاوسي</value>
+  </data>
+  <data name="ResizeDialog.AbsoluteRB.Text" xml:space="preserve">
+    <value>&amp;بالحجم المطلق:</value>
+  </data>
+  <data name="UpdatesDialog.NewVersionLabel.Text" xml:space="preserve">
+    <value>الإصدار الجديد:</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Success.RebootRequired.Format" xml:space="preserve">
+    <value>تم تثبيت {0} بنجاح. قد يلزم إعادة تشغيل الجهاز لاستخدامه على نحو سليم. انقر فوق «إنهاء» لإغلاق معالج التثبيت.</value>
+  </data>
+  <data name="OutlineEffect.Name" xml:space="preserve">
+    <value>مخطط</value>
+  </data>
+  <data name="ReduceNoiseEffect.Name" xml:space="preserve">
+    <value>تقليل التشويش</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.TransferHeader.Text" xml:space="preserve">
+    <value>خريطة التحويل</value>
+  </data>
+  <data name="WebExceptionStatus.Pending" xml:space="preserve">
+    <value>يوجد طلب داخلي غير متزامن قيد الانتظار.</value>
+  </data>
+  <data name="PasteAction.Question.ExpandCanvas" xml:space="preserve">
+    <value>الصورة المراد لصقها أكبر من لوحة الرسم.
+هل تريد توسيع لوحة الرسم لتلائم الصورة الملصقة؟</value>
+  </data>
+  <data name="SurfaceBlurEffect.ConfigDialog.RadiusLabel" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="NewImageAction.Error.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لإنشاء صورة جديدة.</value>
+  </data>
+  <data name="HatchStyle.LightHorizontal" xml:space="preserve">
+    <value>أفقي فاتح</value>
+  </data>
+  <data name="ResizeDialog.ResolutionLabel.Text" xml:space="preserve">
+    <value>الدقة:</value>
+  </data>
+  <data name="Effects.PluginLoadErrorsDialog.Message.Text" xml:space="preserve">
+    <value>تعذر تحميل المكونات الإضافية التالية. ربما كُتبت لإصدار أقدم أو أحدث من Paint.NET. إذا كان لديك أحدث إصدار من Paint.NET، فتحقق مما إذا كان هناك إصدار محدّث لأي مكون إضافي تسبب في خطأ.</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.A1R5G5B5" xml:space="preserve">
+    <value>A1R5G5B5</value>
+  </data>
+  <data name="ColorDisplayWidget.SwapIconBox.ToolTipText" xml:space="preserve">
+    <value>تبديل الألوان
+مفتاح الاختصار: X</value>
+  </data>
+  <data name="FlattenFunction.Name" xml:space="preserve">
+    <value>تسطيح</value>
+  </data>
+  <data name="Menu.File.Acquire.Text" xml:space="preserve">
+    <value>الح&amp;صول</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeWidthLabel.Text" xml:space="preserve">
+    <value>العرض:</value>
+  </data>
+  <data name="CommonAction.Paste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="CommonAction.Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="PasteAction.Error.NoImage" xml:space="preserve">
+    <value>لا تحتوي الحافظة على صورة.</value>
+  </data>
+  <data name="Menu.Tools.Text" xml:space="preserve">
+    <value>&amp;الأدوات</value>
+  </data>
+  <data name="ReliefEffect.Name" xml:space="preserve">
+    <value>نقش بارز</value>
+  </data>
+  <data name="CloseWorkspaceAction.IntroText.Format" xml:space="preserve">
+    <value>لدى {0} تغييرات غير محفوظة. ما الإجراء الذي تريد اتخاذه؟</value>
+  </data>
+  <data name="RectangleSelectTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم تحديد مستطيل. اضغط باستمرار على Shift لتقييد الشكل بمربع.</value>
+  </data>
+  <data name="ScaleFactor.Percentage.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.X8R8G8B8" xml:space="preserve">
+    <value>X8R8G8B8</value>
+  </data>
+  <data name="ColorDisplayWidget.BackColorRectangle.ToolTipText" xml:space="preserve">
+    <value>ثانوي</value>
+  </data>
+  <data name="WebExceptionStatus.KeepAliveFailure" xml:space="preserve">
+    <value>أُغلق الاتصال الخاص بطلب يحدد ترويسة keep-alive على نحو غير متوقع.</value>
+  </data>
+  <data name="Menu.Edit.FillSelection.Text" xml:space="preserve">
+    <value>&amp;تعبئة التحديد</value>
+  </data>
+  <data name="SetupWizard.CreateMsiPage.IntroText.Text.Creating" xml:space="preserve">
+    <value>جارٍ إنشاء حزم MSI...</value>
+  </data>
+  <data name="MeasurementUnit.Inch.Abbreviation" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.CenteredCheckBox.Text" xml:space="preserve">
+    <value>توسيط</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.DoneState" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="Effects.Stylize.Submenu.Name" xml:space="preserve">
+    <value>تنميق</value>
+  </data>
+  <data name="SetupWizard.CreateMsiPage.IntroText.Text.Finished" xml:space="preserve">
+    <value>وُضعت حزم MSI في المجلد التالي: &apos;{0}&apos;.</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.CancelTB.ExplanationText" xml:space="preserve">
+    <value>إلغاء النقل وإتاحة إعادة تحديد الصور المراد فتحها.</value>
+  </data>
+  <data name="CommonAction.Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="CommonAction.Redo" xml:space="preserve">
+    <value>إعادة</value>
+  </data>
+  <data name="CommonAction.Undo" xml:space="preserve">
+    <value>تراجع</value>
+  </data>
+  <data name="CommonAction.Open" xml:space="preserve">
+    <value>فتح</value>
+  </data>
+  <data name="CommonAction.Copy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="SetupWizard.LicensePage.HeaderText" xml:space="preserve">
+    <value>اتفاقية الترخيص</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.ReadyToInstallState" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.UpdateAvailableState" xml:space="preserve">
+    <value>&amp;تثبيت</value>
+  </data>
+  <data name="InvertSelectionAction.Name" xml:space="preserve">
+    <value>عكس التحديد</value>
+  </data>
+  <data name="SetupWizard.IntroPage.CustomRB.Text" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="Menu.View.ActualSize.Text" xml:space="preserve">
+    <value>&amp;الحجم الفعلي</value>
+  </data>
+  <data name="Menu.File.Acquire.FromScannerOrCamera.Text" xml:space="preserve">
+    <value>من &amp;الماسح الضوئي أو الكاميرا...</value>
+  </data>
+  <data name="UnsavedChangesDialog.DontSaveButton.ActionText" xml:space="preserve">
+    <value>ع&amp;دم الحفظ</value>
+  </data>
+  <data name="Effects.Render.Submenu.Name" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="AlphaBlendingSplitButton.BlendingEnabled.Text" xml:space="preserve">
+    <value>مزج عادي</value>
+  </data>
+  <data name="Application.ProductName.Bare" xml:space="preserve">
+    <value>Paint.NET</value>
+  </data>
+  <data name="CurvesEffect.Name" xml:space="preserve">
+    <value>منحنيات</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.ExtractingState" xml:space="preserve">
+    <value>جارٍ الاستخراج</value>
+  </data>
+  <data name="AnchorEdge.Top" xml:space="preserve">
+    <value>أعلى</value>
+  </data>
+  <data name="SendFeedback.Email.Body" xml:space="preserve">
+    <value>&lt;&lt; أدخل ملاحظاتك أو تقرير الخطأ هنا (بالإنجليزية فقط). &gt;&gt;</value>
+  </data>
+  <data name="UpdatesDialog.OptionsButton.Text" xml:space="preserve">
+    <value>&amp;خيارات...</value>
+  </data>
+  <data name="TaskButton.Cancel.ExplanationText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SetupWizard.x86Msi.LaunchCondition.NotAllowedOn64bitOS" xml:space="preserve">
+    <value>لا يجوز تثبيت حزمة MSI ذات 32 بت على نظام تشغيل ذي 64 بت.</value>
+  </data>
+  <data name="MandelbrotFractalEffect.ConfigDialog.Factor.DisplayName" xml:space="preserve">
+    <value>المعامل</value>
+  </data>
+  <data name="DownloadAndUnzipUpdateDialog.Text" xml:space="preserve">
+    <value>تحديثات Paint.NET</value>
+  </data>
+  <data name="MoveTool.Name" xml:space="preserve">
+    <value>تحريك وحدات البكسل المحددة</value>
+  </data>
+  <data name="Menu.Help.Language.Text" xml:space="preserve">
+    <value>ال&amp;لغة</value>
+  </data>
+  <data name="ColorsForm.MoreLessButton.Text.Less" xml:space="preserve">
+    <value>أقل</value>
+  </data>
+  <data name="ColorsForm.MoreLessButton.Text.More" xml:space="preserve">
+    <value>المزيد</value>
+  </data>
+  <data name="BlockedPluginException.PluginIsNowBuiltIn" xml:space="preserve">
+    <value>هذا المكون الإضافي مضمّن الآن في Paint.NET.</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.HeaderText" xml:space="preserve">
+    <value>تحديد مجلد التثبيت</value>
+  </data>
+  <data name="MeasurementUnit.Centimeter.Abbreviation" xml:space="preserve">
+    <value>سم</value>
+  </data>
+  <data name="Menu.Window.History.Text" xml:space="preserve">
+    <value>&amp;السجل</value>
+  </data>
+  <data name="ExpiredDialog.Message" xml:space="preserve">
+    <value>انتهت صلاحية هذا الإصدار التجريبي الأولي من Paint.NET (بعد 30 يومًا).
+
+انقر فوق «موافق» للانتقال إلى موقع Paint.NET على الويب، حيث يمكنك تنزيل إصدار أحدث.</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.ImportLayers.ActionText" xml:space="preserve">
+    <value>&amp;إضافة إلى طبقة (طبقات)</value>
+  </data>
+  <data name="Menu.Edit.PasteInToNewLayer.Text" xml:space="preserve">
+    <value>لصق في &amp;طبقة جديدة</value>
+  </data>
+  <data name="UserBlendOps.MultiplyBlendOp.Name" xml:space="preserve">
+    <value>ضرب</value>
+  </data>
+  <data name="BrushConfigWidget.FillStyleLabel.Text" xml:space="preserve">
+    <value>تعبئة:</value>
+  </data>
+  <data name="RedEyeRemoveEffectDialog.UsageHintLabel.Text" xml:space="preserve">
+    <value>تلميح: للحصول على أفضل النتائج، استخدم أدوات التحديد أولًا لتحديد كل عين.</value>
+  </data>
+  <data name="HatchStyle.LightDownwardDiagonal" xml:space="preserve">
+    <value>قطري فاتح إلى الأسفل</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.RestartTB.ExplanationText" xml:space="preserve">
+    <value>واجه هذا المكون الإضافي خطأً ويجب إغلاقه.
+
+نظرًا إلى الطبيعة غير المتوقعة لهذا النوع من الأخطاء، يوصى بشدة بإعادة تشغيل Paint.NET قبل المتابعة. وإلا فقد تحدث مشكلات أخرى في الاستقرار أو تلف في البيانات.</value>
+  </data>
+  <data name="TextTool.StatusText.StartTyping" xml:space="preserve">
+    <value>اسحب العقدة لتحريك النص. اضغط Ctrl لإخفاء العقدة والمؤشر. اضغط Ctrl للتبديل بين إظهار العقدة وإخفائها.</value>
+  </data>
+  <data name="WarnAboutFlattening.Title" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ColorPickerClickBehavior.SwitchToPencilTool" xml:space="preserve">
+    <value>التبديل إلى أداة القلم الرصاص</value>
+  </data>
+  <data name="Menu.Layers.LayerProperties.Text" xml:space="preserve">
+    <value>خصائص &amp;الطبقة...</value>
+  </data>
+  <data name="ResizeDialog.PercentRB.Text" xml:space="preserve">
+    <value>&amp;بالنسبة المئوية:</value>
+  </data>
+  <data name="MedianEffect.ConfigDialog.PercentileLabel" xml:space="preserve">
+    <value>النسبة المئوية</value>
+  </data>
+  <data name="PanTool.Name" xml:space="preserve">
+    <value>تحريك</value>
+  </data>
+  <data name="RedEyeRemoveEffect.Name" xml:space="preserve">
+    <value>إزالة العين الحمراء</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.RetryTB.ExplanationText" xml:space="preserve">
+    <value>إعادة محاولة نقل الصورة.</value>
+  </data>
+  <data name="MeasurementUnit.Pixel.Plural" xml:space="preserve">
+    <value>بكسلات</value>
+  </data>
+  <data name="GifFileType.ConfigUI.Threshold.Description" xml:space="preserve">
+    <value>ستكون وحدات البكسل التي تقل قيمة ألفا فيها عن الحد الأدنى شفافة تمامًا.</value>
+  </data>
+  <data name="InvertColorsEffect.Name" xml:space="preserve">
+    <value>عكس الألوان</value>
+  </data>
+  <data name="ConfirmLanguageDialog.Title" xml:space="preserve">
+    <value>تأكيد اختيار اللغة</value>
+  </data>
+  <data name="FlipDocumentVerticalAction.Name" xml:space="preserve">
+    <value>قلب عمودي (الكل)</value>
+  </data>
+  <data name="ZoomConfigWidget.ZoomInButton.ToolTipText" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.AutoButton.ToolTipText" xml:space="preserve">
+    <value>يضبط تلقائيًا نقطتي الأبيض والأسود للإدخال وغاما الإخراج لمعادلة الصورة</value>
+  </data>
+  <data name="WarnAboutFlattening.FlattenTB.ActionText" xml:space="preserve">
+    <value>&amp;تسطيح</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.TgaCheckBox.Text" xml:space="preserve">
+    <value>استخدامه كمحرر الصور الافتراضي لصور TGA</value>
+  </data>
+  <data name="SavePaletteDialog.Text" xml:space="preserve">
+    <value>حفظ لوحة الألوان الحالية</value>
+  </data>
+  <data name="Menu.View.ZoomOut.ShortcutKeyDisplayString" xml:space="preserve">
+    <value>Ctrl+-</value>
+  </data>
+  <data name="CutAction.Name" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="SaveAsDialog.Title" xml:space="preserve">
+    <value>حفظ باسم</value>
+  </data>
+  <data name="HistoryForm.UndoButton.ToolTipText" xml:space="preserve">
+    <value>تراجع (خطوة إلى الخلف)</value>
+  </data>
+  <data name="Effects.Noise.Submenu.Name" xml:space="preserve">
+    <value>تشويش</value>
+  </data>
+  <data name="TwistEffect.Antialias.Text" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.BrushPenPenCapsShapeType.HeaderLabel.Text" xml:space="preserve">
+    <value>الشكل والفرشاة والنمط والتعبئة</value>
+  </data>
+  <data name="ColorPickerClickBehavior.SwitchToLastTool" xml:space="preserve">
+    <value>التبديل إلى الأداة السابقة</value>
+  </data>
+  <data name="EffectErrorMessage.FullFormat" xml:space="preserve">
+    <value>الملف: {0}
+      الاسم: {1}
+      الإصدار: {2}
+      المؤلف: {3}
+      حقوق النشر: {4}
+      موقع الويب: {5}
+      رسالة الخطأ الكاملة: {6}
+</value>
+  </data>
+  <data name="Layer.Background.Name" xml:space="preserve">
+    <value>الخلفية</value>
+  </data>
+  <data name="WebExceptionStatus.ProtocolError.Format" xml:space="preserve">
+    <value>أعاد الخادم رمز الخطأ التالي: HTTP {1} ({0})</value>
+  </data>
+  <data name="HatchStyle.HorizontalBrick" xml:space="preserve">
+    <value>طوب أفقي</value>
+  </data>
+  <data name="ImportFromFileAction.ImportOneFile.NewLayer.Format" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
+  <data name="Menu.Edit.InvertSelection.Text" xml:space="preserve">
+    <value>&amp;عكس التحديد</value>
+  </data>
+  <data name="WebExceptionStatus.Timeout" xml:space="preserve">
+    <value>لم يتم تلقي أي استجابة خلال المهلة الزمنية المحددة للطلب.</value>
+  </data>
+  <data name="LayerPropertiesDialog.VisibleCheckBox.Text" xml:space="preserve">
+    <value>مرئي</value>
+  </data>
+  <data name="Menu.Tools.AlphaBlending.Text" xml:space="preserve">
+    <value>مزج &amp;ألفا</value>
+  </data>
+  <data name="CommonAction.ZoomOut" xml:space="preserve">
+    <value>تصغير</value>
+  </data>
+  <data name="Menu.Layers.MergeLayerDown.Text" xml:space="preserve">
+    <value>&amp;دمج الطبقة إلى الأسفل</value>
+  </data>
+  <data name="TaskButton.Cancel.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Menu.Help.Text" xml:space="preserve">
+    <value>&amp;تعليمات</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.ReadyToCheckState" xml:space="preserve">
+    <value>Paint.NET جاهز للتحقق من وجود تحديثات.</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.A4R4G4B4" xml:space="preserve">
+    <value>A4R4G4B4</value>
+  </data>
+  <data name="TextTool.StatusText.TextInfo.Format" xml:space="preserve">
+    <value>نقطة الارتكاز: {0}{1}، {2}{3}</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.CompressorTypeLabel.Text" xml:space="preserve">
+    <value>نوع الضاغط</value>
+  </data>
+  <data name="CloudsEffect.Name" xml:space="preserve">
+    <value>سحب</value>
+  </data>
+  <data name="UpdatesOptionsDialog.BetaCheckBox.Text" xml:space="preserve">
+    <value>التحقق أيضًا من الإصدارات التجريبية (بيتا)</value>
+  </data>
+  <data name="Menu.Image.Resize.Text" xml:space="preserve">
+    <value>&amp;تغيير الحجم...</value>
+  </data>
+  <data name="SetupWizard.Error.AdminRequired" xml:space="preserve">
+    <value>يلزم امتياز المسؤول لتثبيت Paint.NET.</value>
+  </data>
+  <data name="HatchStyle.SmallConfetti" xml:space="preserve">
+    <value>قصاصات صغيرة</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.Resampling.HeaderLabel.Text" xml:space="preserve">
+    <value>تحريك وحدات البكسل المحددة</value>
+  </data>
+  <data name="BrushConfigWidget.SolidBrush.Text" xml:space="preserve">
+    <value>لون مصمت</value>
+  </data>
+  <data name="Menu.File.Exit.Text" xml:space="preserve">
+    <value>خ&amp;روج</value>
+  </data>
+  <data name="ExpiredTaskDialog.CheckForUpdatesTB.ExplanationText" xml:space="preserve">
+    <value>تحقق من توفر تحديث، ثم ثبّته.</value>
+  </data>
+  <data name="SaveProgressDialog.Description" xml:space="preserve">
+    <value>جارٍ الحفظ:</value>
+  </data>
+  <data name="HatchStyle.LightUpwardDiagonal" xml:space="preserve">
+    <value>قطري فاتح إلى الأعلى</value>
+  </data>
+  <data name="PosterizeAdjustment.Name" xml:space="preserve">
+    <value>تحويل إلى ألوان محدودة</value>
+  </data>
+  <data name="EllipseTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم شكل بيضاوي (انقر بزر الماوس الأيمن لاستخدام اللون الثانوي). اضغط باستمرار على Shift لتقييد الشكل بدائرة.</value>
+  </data>
+  <data name="Generic.OutOfMemory" xml:space="preserve">
+    <value>لم تكن هناك ذاكرة كافية لإكمال العملية.</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.UsageLabel" xml:space="preserve">
+    <value>لتغيير لون السحب، يمكنك تعيين اللونين الأساسي والثانوي في نافذة الألوان.</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.Text.HeaderLabel.Text" xml:space="preserve">
+    <value>نص</value>
+  </data>
+  <data name="HelpFile.Url.Format" xml:space="preserve">
+    <value>{0}/doc/latest/index.html</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.RestartTB.ActionText" xml:space="preserve">
+    <value>إعادة تشغيل Paint.NET (مستحسن)</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.DegreeLabel.Text" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="TgaFileType.ConfigUI.BitDepth.Bpp32.DisplayName" xml:space="preserve">
+    <value>32 بت</value>
+  </data>
+  <data name="HatchStyle.SmallGrid" xml:space="preserve">
+    <value>شبكة صغيرة</value>
+  </data>
+  <data name="LassoSelectTool.Name" xml:space="preserve">
+    <value>تحديد حر</value>
+  </data>
+  <data name="ColorPickerTool.Name" xml:space="preserve">
+    <value>منتقي الألوان</value>
+  </data>
+  <data name="ExpandCanvasQuestion.Title" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="FreeformShapeTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لرسم شكل حر باللون الأساسي، وانقر بزر الماوس الأيمن لاستخدام اللون الثانوي</value>
+  </data>
+  <data name="PdnInfo.AboutRedirectPage" xml:space="preserve">
+    <value>pdnabout.html</value>
+  </data>
+  <data name="PenConfigWidget.BrushWidthLabel" xml:space="preserve">
+    <value>عرض الفرشاة:</value>
+  </data>
+  <data name="ToolConfigStrip.FloodModeSplitButton.Global.Text" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="WebExceptionStatus.ReceiveFailure" xml:space="preserve">
+    <value>لم يتم استلام استجابة كاملة من الخادم البعيد.</value>
+  </data>
+  <data name="LoadImage.Error.DirectoryNotFoundException" xml:space="preserve">
+    <value>تعذر العثور على الدليل.</value>
+  </data>
+  <data name="ToolConfigStrip.PenDashStyleSplitButton.ToolTipText" xml:space="preserve">
+    <value>تبديل نوع الشرطات لنمط الخط
+مفتاح الاختصار: .</value>
+  </data>
+  <data name="SetupWizard.BackButton.Text" xml:space="preserve">
+    <value>&lt; &amp;رجوع</value>
+  </data>
+  <data name="Menu.File.SaveAs.Text" xml:space="preserve">
+    <value>حفظ &amp;باسم...</value>
+  </data>
+  <data name="WIA.Error.EnableMe" xml:space="preserve">
+    <value>لاستخدام هذه الميزة، يجب تمكين خدمة نظام Windows Image Acquisition.</value>
+  </data>
+  <data name="TextConfigWidget.AlignRightButton.ToolTipText" xml:space="preserve">
+    <value>محاذاة إلى اليمين</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.IntroText" xml:space="preserve">
+    <value>واجه هذا المكون الإضافي خطأً ويجب إغلاقه.
+
+نظرًا إلى الطبيعة غير المتوقعة لهذا النوع من الأخطاء، يوصى بشدة بإعادة تشغيل Paint.NET قبل المتابعة. وإلا فقد تحدث مشكلات أخرى في الاستقرار أو تلف في البيانات.</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.ItemText.Initializing" xml:space="preserve">
+    <value>جارٍ التهيئة...</value>
+  </data>
+  <data name="InkSketchEffect.ConfigDialog.InkOutlineLabel" xml:space="preserve">
+    <value>مخطط الحبر</value>
+  </data>
+  <data name="ColorPalette.SaveHeader" xml:space="preserve">
+    <value>; ملف لوحة Paint.NET
+; الأسطر التي تبدأ بفاصلة منقوطة هي تعليقات
+; تُكتب الألوان بصيغة أرقام سداسية عشرية من 8 خانات: aarrggbb
+; مثال: يحدد هذا اللون الأخضر: FF00FF00
+; تحدد قيمة ألفا (&apos;aa&apos;) مدى شفافية اللون. FF معتم تمامًا، و00 شفاف تمامًا.
+; يجب أن تتكون لوحة الألوان من ستة وتسعين (96) لونًا. إذا كان عدد الألوان أقل من ذلك، فستُضبط خانات الألوان المتبقية على الأبيض (FFFFFFFF). وإذا زاد العدد، فسيتم تجاهل الألوان الزائدة.</value>
+  </data>
+  <data name="HatchStyle.LargeGrid" xml:space="preserve">
+    <value>شبكة كبيرة</value>
+  </data>
+  <data name="HatchStyle.Max" xml:space="preserve">
+    <value>الأقصى</value>
+  </data>
+  <data name="HatchStyle.Min" xml:space="preserve">
+    <value>الأدنى</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.UpdatesText.Text" xml:space="preserve">
+    <value>يمكن لـ Paint.NET التحقق دوريًا من توفر إصدار جديد ثم إعلامك به. لا يتم إرسال أي معلومات من الكمبيوتر أثناء هذه العملية. ملاحظة: لن يتم إعلامك بالإصدارات الجديدة إلا أثناء تشغيل Paint.NET.</value>
+  </data>
+  <data name="AnchorEdge.TopLeft" xml:space="preserve">
+    <value>أعلى اليسار</value>
+  </data>
+  <data name="BulgeEffect.Name" xml:space="preserve">
+    <value>انتفاخ</value>
+  </data>
+  <data name="AntiAliasingSplitButton.Enabled.Text" xml:space="preserve">
+    <value>تم تمكين مقاومة التعرّج</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.OpenSRPoint" xml:space="preserve">
+    <value>جارٍ إنشاء نقطة استعادة النظام...</value>
+  </data>
+  <data name="SaveConfigDialog.FileSizeText.Text.Error" xml:space="preserve">
+    <value>(خطأ)</value>
+  </data>
+  <data name="ResizeDialog.NewHeightLabel1.Text" xml:space="preserve">
+    <value>الارتفاع:</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.Quality.DisplayName" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.GenerateMipMaps.Text" xml:space="preserve">
+    <value>إنشاء خرائط mip</value>
+  </data>
+  <data name="WorkspaceOptionsConfigWidget.UnitsLabel.Text" xml:space="preserve">
+    <value>الوحدات:</value>
+  </data>
+  <data name="AddNoiseEffect.Coverage" xml:space="preserve">
+    <value>التغطية</value>
+  </data>
+  <data name="ColorPickerClickBehavior.NoToolSwitch" xml:space="preserve">
+    <value>عدم تبديل الأداة</value>
+  </data>
+  <data name="DentsEffect.Name" xml:space="preserve">
+    <value>نتوءات</value>
+  </data>
+  <data name="ResizeDialog.PrintSizeHeader.Text" xml:space="preserve">
+    <value>حجم الطباعة</value>
+  </data>
+  <data name="SelectAllAction.Name" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="CloseWorkspaceAction.DontSaveButton.ExplanationText" xml:space="preserve">
+    <value>تجاهل التغييرات غير المحفوظة.</value>
+  </data>
+  <data name="SaveProgressDialog.Title" xml:space="preserve">
+    <value>جارٍ الحفظ</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.Gradient.HeaderLabel.Text" xml:space="preserve">
+    <value>تدرج</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeSplitButton.Exclude.Text" xml:space="preserve">
+    <value>طرح</value>
+  </data>
+  <data name="SaveImage.Error.DirectoryNotFoundException" xml:space="preserve">
+    <value>تعذر العثور على الدليل. استخدم «ملف» -&gt; «حفظ باسم...» للحفظ في موقع آخر.</value>
+  </data>
+  <data name="UpdatesDialog.BetaWarningLabel.Text" xml:space="preserve">
+    <value>ملاحظة: هذا إصدار تجريبي أولي (بيتا)، وقد لا يكون مستقرًا.</value>
+  </data>
+  <data name="SetupWizard.IntroPage.ExpirationWarning.Format" xml:space="preserve">
+    <value>ملاحظة: سينتهي هذا الإصدار التجريبي الأولي من Paint.NET في {0}.</value>
+  </data>
+  <data name="ToolConfigStrip.PenSizeIncButton.ToolTipText" xml:space="preserve">
+    <value>زيادة حجم الفرشاة
+مفتاح الاختصار: ] (اضغط Ctrl باستمرار للزيادة بمقدار 5)</value>
+  </data>
+  <data name="ToolConfigStrip.FloodModeSplitButton.Local.Text" xml:space="preserve">
+    <value>متجاور</value>
+  </data>
+  <data name="SetupWizard.NextButton.Text.Finished" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="TextTool.Name" xml:space="preserve">
+    <value>نص</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.BrowseForFolder.Description" xml:space="preserve">
+    <value>اختر مجلد التثبيت:</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.WeightColourByAlpha" xml:space="preserve">
+    <value>ترجيح اللون بحسب ألفا</value>
+  </data>
+  <data name="MagicWandTool.Name" xml:space="preserve">
+    <value>العصا السحرية</value>
+  </data>
+  <data name="ShapeDrawTypeConfigWidget.OutlineButton.ToolTipText" xml:space="preserve">
+    <value>رسم مخطط الشكل</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.HeaderZoom.Text" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="HatchStyle.DarkVertical" xml:space="preserve">
+    <value>عمودي داكن</value>
+  </data>
+  <data name="VignetteEffect.ConfigDialog.RadiusLabel" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.OutputHistogramGroupBox.Text" xml:space="preserve">
+    <value>مدرج تكراري للإخراج</value>
+  </data>
+  <data name="Application.ProductName.Format" xml:space="preserve">
+    <value>{0} v{1}{2}</value>
+  </data>
+  <data name="SavedWithOlderVersion.Format" xml:space="preserve">
+    <value>حُفظت هذه الصورة بإصدار أقدم من Paint.NET. إذا حفظتها، فلن يتمكن ذلك الإصدار الأقدم من قراءتها.
+
+الإصدار الذي حفظها: Paint.NET v{0}
+الإصدار الحالي: Paint.NET v{1}</value>
+  </data>
+  <data name="Menu.File.Print.Text" xml:space="preserve">
+    <value>&amp;طباعة...</value>
+  </data>
+  <data name="ResizeDialog.NewHeightLabel2.Text" xml:space="preserve">
+    <value>الارتفاع:</value>
+  </data>
+  <data name="DashStyle.DashDotDot" xml:space="preserve">
+    <value>شرطة، نقطة، نقطة</value>
+  </data>
+  <data name="Menu.Layers.Adjustments.Text" xml:space="preserve">
+    <value>&amp;التعديلات</value>
+  </data>
+  <data name="ProcessorArchitecture.X64" xml:space="preserve">
+    <value>x64</value>
+  </data>
+  <data name="ProcessorArchitecture.X86" xml:space="preserve">
+    <value>x86</value>
+  </data>
+  <data name="EllipseTool.StatusText.Format" xml:space="preserve">
+    <value>الحجم: {0}{1} × {2}{3}، المساحة: {4} {5}</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.IntroText.Text.Format" xml:space="preserve">
+    <value>سيثبت البرنامج {0} في المجلد التالي.
+
+للتثبيت في هذا المجلد، انقر فوق «التالي». وللتثبيت في مجلد آخر، أدخل مساره أدناه أو انقر فوق «استعراض».</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Success.Format" xml:space="preserve">
+    <value>تم تثبيت {0} بنجاح. انقر فوق «إنهاء» لإغلاق معالج التثبيت.</value>
+  </data>
+  <data name="UpdatesDialog.NewVersionZipLabel.Text" xml:space="preserve">
+    <value>تنزيل:</value>
+  </data>
+  <data name="PngFileType.ConfigUI.BitDepth.DisplayName" xml:space="preserve">
+    <value>عمق البت</value>
+  </data>
+  <data name="LoadImage.Error.ImageTypeNotRecognized" xml:space="preserve">
+    <value>نوع الصورة غير معروف ولا يمكن فتحه.</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.JpgPngBmpCheckBox.Text" xml:space="preserve">
+    <value>استخدامه كمحرر الصور الافتراضي لصور JPEG وPNG وBMP</value>
+  </data>
+  <data name="AnchorEdge.BottomLeft" xml:space="preserve">
+    <value>أسفل اليسار</value>
+  </data>
+  <data name="UnfocusEffect.Name" xml:space="preserve">
+    <value>إزالة التركيز</value>
+  </data>
+  <data name="RectangleSelectTool.Name" xml:space="preserve">
+    <value>تحديد مستطيل</value>
+  </data>
+  <data name="SetupWizard.LicensePage.AgreeButton.Text" xml:space="preserve">
+    <value>أ&amp;وافق</value>
+  </data>
+  <data name="ColorPalettes.UserDataSubDirName" xml:space="preserve">
+    <value>لوحات الألوان</value>
+  </data>
+  <data name="LineCap2.Rounded" xml:space="preserve">
+    <value>مستدير</value>
+  </data>
+  <data name="UpdatesDialog.CurrentVersionHeader.Text" xml:space="preserve">
+    <value>الإصدار المثبّت حاليًا</value>
+  </data>
+  <data name="ColorDisplayWidget.BlackAndWhiteIconBox.ToolTipText" xml:space="preserve">
+    <value>أبيض وأسود</value>
+  </data>
+  <data name="ZoomTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر للتكبير، وانقر بزر الماوس الأيمن للتصغير، وانقر بالزر الأوسط للتحريك</value>
+  </data>
+  <data name="ResamplingAlgorithm.Bilinear" xml:space="preserve">
+    <value>ناعم</value>
+  </data>
+  <data name="HatchStyle.DiagonalBrick" xml:space="preserve">
+    <value>طوب قطري</value>
+  </data>
+  <data name="HatchStyle.DiagonalCross" xml:space="preserve">
+    <value>تقاطع قطري</value>
+  </data>
+  <data name="SaveConfigDialog.FileSizeText.Text.Computing" xml:space="preserve">
+    <value>(جارٍ الحساب)</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.Text" xml:space="preserve">
+    <value>اختيار الإعدادات الافتراضية</value>
+  </data>
+  <data name="Menu.Edit.Cut.Text" xml:space="preserve">
+    <value>ق&amp;ص</value>
+  </data>
+  <data name="ConfirmLanguageDialog.RestartTB.ExplanationText.Format" xml:space="preserve">
+    <value>سيتم إغلاق Paint.NET ثم إعادة تشغيله باللغة {0}. سيُطلب منك حفظ التغييرات إذا لزم الأمر.</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.IntroText.Text" xml:space="preserve">
+    <value>يمكنك اختيار الأداة النشطة عند بدء Paint.NET، وتحديد الإعدادات الافتراضية لعناصر شريط الأدوات.</value>
+  </data>
+  <data name="Menu.Window.Translucent.Text" xml:space="preserve">
+    <value>شبه شفاف</value>
+  </data>
+  <data name="WarnAboutFlattening.IntroText" xml:space="preserve">
+    <value>يتطلب الحفظ بهذا التنسيق تسطيح الصورة أولًا، مما يحولها إلى طبقة واحدة.</value>
+  </data>
+  <data name="HueAndSaturationAdjustment.Amount2Label" xml:space="preserve">
+    <value>التشبع</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.CancelTB.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="ResizeDialog.ResampleMethod.NearestNeighbor" xml:space="preserve">
+    <value>أقرب جار</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.ErrorMetricLabel.Text" xml:space="preserve">
+    <value>مقياس الخطأ</value>
+  </data>
+  <data name="HatchStyle.Trellis" xml:space="preserve">
+    <value>شبكة تعريشة</value>
+  </data>
+  <data name="BulgeEffect.Offset.Text" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="UpdatesOptionsDialog.AllUsersNoticeLabel.Text" xml:space="preserve">
+    <value>ملاحظة: تؤثر هذه الإعدادات في جميع مستخدمي هذا الكمبيوتر.</value>
+  </data>
+  <data name="RectangleTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم مستطيل (انقر بزر الماوس الأيمن لاستخدام اللون الثانوي). اضغط باستمرار على Shift لتقييد الشكل بمربع.</value>
+  </data>
+  <data name="MotionBlurEffect.Name" xml:space="preserve">
+    <value>تمويه الحركة</value>
+  </data>
+  <data name="HueAndSaturationAdjustment.Amount1Label" xml:space="preserve">
+    <value>تدرج اللون</value>
+  </data>
+  <data name="Utility.SizeStringFromBytes.MBFormat" xml:space="preserve">
+    <value>{0} MB</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.ZoomLabel.Text.Format" xml:space="preserve">
+    <value>{0}x</value>
+  </data>
+  <data name="PenConfigWidget.Error.TooSmall" xml:space="preserve">
+    <value>الحجم أصغر من 1</value>
+  </data>
+  <data name="LoadImage.Error.FileNotFoundException" xml:space="preserve">
+    <value>تعذر العثور على الملف.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.OutputGroupBox.Text" xml:space="preserve">
+    <value>إخراج</value>
+  </data>
+  <data name="PenConfigWidget.Error.TooLarge" xml:space="preserve">
+    <value>الحجم أكبر من 500</value>
+  </data>
+  <data name="UpdatesDialog.CloseButton.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="ZoomBasis.FitToWindow" xml:space="preserve">
+    <value>نافذة</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.Offset.DisplayName" xml:space="preserve">
+    <value>الإزاحة</value>
+  </data>
+  <data name="LoadImage.Error.ArgumentException" xml:space="preserve">
+    <value>حدث خطأ أثناء فتح الملف.</value>
+  </data>
+  <data name="PaintBrushTool.Name" xml:space="preserve">
+    <value>فرشاة رسم</value>
+  </data>
+  <data name="TgaFileType.ConfigUI.RleCompress.Description" xml:space="preserve">
+    <value>ضغط (RLE)</value>
+  </data>
+  <data name="ToleranceConfig.ToleranceLabel.Text" xml:space="preserve">
+    <value>التفاوت:</value>
+  </data>
+  <data name="Form.ResetButton.Text" xml:space="preserve">
+    <value>&amp;إعادة ضبط</value>
+  </data>
+  <data name="RecolorTool.Name" xml:space="preserve">
+    <value>إعادة تلوين</value>
+  </data>
+  <data name="HueAndSaturationAdjustment.Amount3Label" xml:space="preserve">
+    <value>الخفة</value>
+  </data>
+  <data name="AboutDialog.CreditsLabel.Text" xml:space="preserve">
+    <value>اعتمادات:</value>
+  </data>
+  <data name="ConfirmLanguageDialog.RestartTB.ActionText" xml:space="preserve">
+    <value>&amp;إعادة تشغيل Paint.NET</value>
+  </data>
+  <data name="UpdatesDialog.InfoLabel.Text" xml:space="preserve">
+    <value>يتوفر إصدار أحدث من Paint.NET. يمكنك النقر فوق زر «تثبيت» لتنزيله وتثبيته، أو النقر فوق «إغلاق» ليتم تذكيرك مرة أخرى بعد عدة أيام.</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.R5G6B5" xml:space="preserve">
+    <value>R5G6B5</value>
+  </data>
+  <data name="SelectionTool.MoveSelection" xml:space="preserve">
+    <value>تحريك التحديد</value>
+  </data>
+  <data name="ColorsForm.HexLabel.Text" xml:space="preserve">
+    <value>ست عشري:</value>
+  </data>
+  <data name="HatchStyle.DashedVertical" xml:space="preserve">
+    <value>عمودي متقطع</value>
+  </data>
+  <data name="Menu.Image.FlipHorizontal.Text" xml:space="preserve">
+    <value>قلب &amp;أفقي</value>
+  </data>
+  <data name="DesaturateEffect.Name" xml:space="preserve">
+    <value>أبيض وأسود</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.R8G8B8" xml:space="preserve">
+    <value>R8G8B8</value>
+  </data>
+  <data name="GradientChannels.AllColorChannels.Text" xml:space="preserve">
+    <value>وضع الألوان</value>
+  </data>
+  <data name="DocumentWorkspace.DeleteLayerButtonClicked.Confirmation" xml:space="preserve">
+    <value>حذف الطبقة؟</value>
+  </data>
+  <data name="CommonAction.CropToSelection" xml:space="preserve">
+    <value>اقتصاص التحديد</value>
+  </data>
+  <data name="UserBlendOps.ReflectBlendOp.Name" xml:space="preserve">
+    <value>انعكاس</value>
+  </data>
+  <data name="Menu.Window.Colors.Text" xml:space="preserve">
+    <value>&amp;الألوان</value>
+  </data>
+  <data name="NewFileDialog.Text" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="SetupWizard.InstallDirPage.DefaultTargetSubDir" xml:space="preserve">
+    <value>Paint.NET</value>
+  </data>
+  <data name="EraserTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لمحو جزء من الصورة</value>
+  </data>
+  <data name="BitmapLayerPropertiesDialog.BlendingHeader.Text" xml:space="preserve">
+    <value>المزج</value>
+  </data>
+  <data name="AnchorEdge.BottomRight" xml:space="preserve">
+    <value>أسفل اليمين</value>
+  </data>
+  <data name="WebExceptionStatus.Success" xml:space="preserve">
+    <value>لم يحدث أي خطأ.</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.SelectionCombineModeSelectionDrawMode.HeaderLabel.Text" xml:space="preserve">
+    <value>أدوات التحديد</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.ClusterFit.Text" xml:space="preserve">
+    <value>ملاءمة المجموعة (بطيء/جودة عالية)</value>
+  </data>
+  <data name="Effects.Name.Format.Configurable" xml:space="preserve">
+    <value>{0}...</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.EdgeBehavior.Clamp.DisplayName" xml:space="preserve">
+    <value>تقييد</value>
+  </data>
+  <data name="UpdatesDialog.ProgressLabel.Text.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="CanvasSizeDialog.NewSpaceLabel.Text" xml:space="preserve">
+    <value>ستُملأ المساحة الجديدة باللون الثانوي.</value>
+  </data>
+  <data name="PaintBrushTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر للرسم باللون الأساسي، وانقر بزر الماوس الأيمن للرسم باللون الثانوي</value>
+  </data>
+  <data name="WhichUserColor.Secondary" xml:space="preserve">
+    <value>ثانوي</value>
+  </data>
+  <data name="Menu.Help.CheckForUpdates.Text" xml:space="preserve">
+    <value>التحقق &amp;من وجود تحديثات...</value>
+  </data>
+  <data name="Menu.File.OpenRecent.ClearThisList" xml:space="preserve">
+    <value>&amp;مسح هذه القائمة</value>
+  </data>
+  <data name="TextConfigWidget.ItalicButton.ToolTipText" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="SetupWizard.HelpText" xml:space="preserve">
+    <value>تعليمات تثبيت Paint.NET
+
+خيارات سطر الأوامر:
+
+/skipConfig  -  تخطي تكوين الخيارات ومجلد التثبيت. تُستخدم خصائص MSI وفق ترتيب الأولوية التالي: 1. المحددة في سطر الأوامر، 2. المقروءة من HKLM\Software\Paint.NET، 3. القيم الافتراضية. ملاحظة: يعني استخدام هذا الخيار الموافقة على اتفاقية الترخيص.
+/auto  -  تثبيت تلقائي. يتضمن ذلك /skipConfig. لا يعرض صفحة المعالج الأخيرة التي توضح نتيجة التثبيت.
+/createMsi  -  إنشاء حزم MSI يمكن استخدامها لأغراض النشر (AD/GPO). تُدمج جميع الخصائص المحددة في سطر الأوامر مع حزم MSI، لذلك لا حاجة إلى تحويلات إضافية.
+/verbose  -  تمكين التسجيل المطول لـ MSI في Windows Installer
+PROPERTY=VALUE  -  تعيين خاصية MSI. راجع ملف التعليمات بعد التثبيت لمزيد من المعلومات. لا تحتاج إلى تحديد /saveMsi لتحديد الخصائص.
+
+رمز الإرجاع هو 0 عند النجاح، أو قيمة غير صفرية عند الفشل.</value>
+  </data>
+  <data name="SetupWizard.LicensePage.IntroText.Text" xml:space="preserve">
+    <value>يرجى تخصيص لحظة لقراءة اتفاقية الترخيص الآن. إذا وافقت على الشروط أدناه، فانقر فوق «أوافق»، ثم «التالي». وإلا فانقر فوق «إلغاء».</value>
+  </data>
+  <data name="SharpenEffect.ConfigDialog.SliderLabel" xml:space="preserve">
+    <value>المقدار</value>
+  </data>
+  <data name="Menu.File.Save.Text" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="SaveConfigDialog.PreviewHeader.Text.Format" xml:space="preserve">
+    <value>معاينة، حجم الملف: {0}</value>
+  </data>
+  <data name="UserBlendOps.ColorDodgeBlendOp.Name" xml:space="preserve">
+    <value>تفتيح الألوان</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.SeedLabel" xml:space="preserve">
+    <value>تشويش عشوائي</value>
+  </data>
+  <data name="DuplicateLayer.HistoryMementoName" xml:space="preserve">
+    <value>تكرار الطبقة</value>
+  </data>
+  <data name="HatchStyle.DottedDiamond" xml:space="preserve">
+    <value>مُعيّن منقّط</value>
+  </data>
+  <data name="ResizeDialog.AsteriskLabel.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="HatchStyle.DarkUpwardDiagonal" xml:space="preserve">
+    <value>قطري داكن إلى الأعلى</value>
+  </data>
+  <data name="ZoomBasis.ScaleFactor" xml:space="preserve">
+    <value>المعامل</value>
+  </data>
+  <data name="ZoomBlurEffect.ConfigDialog.Offset" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.Title" xml:space="preserve">
+    <value>السحب والإفلات</value>
+  </data>
+  <data name="DashStyle.Dot" xml:space="preserve">
+    <value>منقّط</value>
+  </data>
+  <data name="Menu.Layers.DeleteLayer.Text" xml:space="preserve">
+    <value>ح&amp;ذف الطبقة</value>
+  </data>
+  <data name="SurfaceBlurEffect.ConfigDialog.ThresholdLabel" xml:space="preserve">
+    <value>الحد</value>
+  </data>
+  <data name="Menu.Image.Text" xml:space="preserve">
+    <value>&amp;صورة</value>
+  </data>
+  <data name="Application.ProductName.Tag.Format" xml:space="preserve">
+    <value> {0}</value>
+  </data>
+  <data name="MoveSelectionTool.HistoryMemento.Scale" xml:space="preserve">
+    <value>تحجيم التحديد</value>
+  </data>
+  <data name="Menu.Help.Updates.Text" xml:space="preserve">
+    <value>&amp;التحديثات</value>
+  </data>
+  <data name="HueAndSaturationAdjustment.Name" xml:space="preserve">
+    <value>تدرج اللون / التشبع</value>
+  </data>
+  <data name="JuliaFractalEffect.ConfigDialog.Quality.DisplayName" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="AngleChooserConfigDialog.AngleHeader.Text" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="UpdatesOptionsDialog.SaveButton.Text" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="AddNoiseEffect.Name" xml:space="preserve">
+    <value>إضافة تشويش</value>
+  </data>
+  <data name="JuliaFractalEffect.ConfigDialog.Factor.DisplayName" xml:space="preserve">
+    <value>المعامل</value>
+  </data>
+  <data name="ResizeDialog.ResamplingLabel.Text" xml:space="preserve">
+    <value>إعادة أخذ العينات:</value>
+  </data>
+  <data name="LaunchLink.Error.Format" xml:space="preserve">
+    <value>حدث خطأ أثناء فتح الارتباط: {0}</value>
+  </data>
+  <data name="HatchStyle.DashedUpwardDiagonal" xml:space="preserve">
+    <value>قطري متقطع إلى الأعلى</value>
+  </data>
+  <data name="Menu.Image.Crop.Text" xml:space="preserve">
+    <value>اقت&amp;صاص التحديد</value>
+  </data>
+  <data name="RotateZoomEffect.Name" xml:space="preserve">
+    <value>تدوير / تكبير</value>
+  </data>
+  <data name="ColorsForm.RedLabel.Text" xml:space="preserve">
+    <value>R:</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Optimizing" xml:space="preserve">
+    <value>جارٍ تحسين الأداء على نظامك. قد يستغرق ذلك دقيقة.</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.UpdateAvailableState" xml:space="preserve">
+    <value>يتوفر إصدار أحدث من Paint.NET. يمكنك النقر فوق «تثبيت» أدناه لتنزيل التحديث وتثبيته.</value>
+  </data>
+  <data name="AutoLevel.Name" xml:space="preserve">
+    <value>ضبط المستوى تلقائيًا</value>
+  </data>
+  <data name="ResizeDialog.ResizedImageHeader.Text.Format" xml:space="preserve">
+    <value>الحجم الجديد: {0}</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.WhileInstallingLabel.Text" xml:space="preserve">
+    <value>برنامج Paint.NET مجاني تمامًا. إذا دفعت مقابله مالًا (باستثناء التبرع عبر &lt;a&gt;موقع Paint.NET&lt;/a&gt; بالطبع)، فنوصيك بطلب استرداد المبلغ!</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ResetButton.Text" xml:space="preserve">
+    <value>&amp;إعادة ضبط</value>
+  </data>
+  <data name="UserBlendOps.AdditiveBlendOp.Name" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.DXT5" xml:space="preserve">
+    <value>DXT5 (ألفا متداخل)</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.DXT3" xml:space="preserve">
+    <value>DXT3 (ألفا صريح)</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.FileFormatList.DXT1" xml:space="preserve">
+    <value>DXT1 (معتم/ألفا 1 بت)</value>
+  </data>
+  <data name="ExecuteFunction.GenericError" xml:space="preserve">
+    <value>حدث خطأ أثناء تنفيذ الإجراء.</value>
+  </data>
+  <data name="CloseWorkspaceAction.SaveButton.ExplanationText" xml:space="preserve">
+    <value>احفظ الصورة ثم أغلقها.</value>
+  </data>
+  <data name="ExpiredTaskDialog.CheckForUpdatesTB.ActionText" xml:space="preserve">
+    <value>&amp;التحقق من وجود تحديث</value>
+  </data>
+  <data name="HatchStyle.SolidDiamond" xml:space="preserve">
+    <value>مُعيّن مصمت</value>
+  </data>
+  <data name="FillSelectionAction.Name" xml:space="preserve">
+    <value>تعبئة التحديد</value>
+  </data>
+  <data name="PencilSketchEffect.Name" xml:space="preserve">
+    <value>رسم بالقلم الرصاص</value>
+  </data>
+  <data name="SepiaEffect.Name" xml:space="preserve">
+    <value>بني داكن</value>
+  </data>
+  <data name="Menu.Edit.Text" xml:space="preserve">
+    <value>&amp;تحرير</value>
+  </data>
+  <data name="StatusBar.CursorInfo.Format" xml:space="preserve">
+    <value>{0}{1}، {2}{3}</value>
+  </data>
+  <data name="SetupWizard.CancelDialog.Message" xml:space="preserve">
+    <value>لم يكتمل التثبيت بعد. هل تريد بالتأكيد الخروج؟</value>
+  </data>
+  <data name="UserBlendOps.NormalBlendOp.Name" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="BmpFileType.ConfigUI.BitDepth.AutoDetect.DisplayName" xml:space="preserve">
+    <value>اكتشاف تلقائي</value>
+  </data>
+  <data name="RotateAction.90CW" xml:space="preserve">
+    <value>90° مع اتجاه عقارب الساعة</value>
+  </data>
+  <data name="FrostedGlassEffect.ConfigDialog.NumSamples.DisplayName" xml:space="preserve">
+    <value>النعومة</value>
+  </data>
+  <data name="RotateAction.Name" xml:space="preserve">
+    <value>تدوير</value>
+  </data>
+  <data name="SaveConfigDialog.SettingsHeader.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="PencilTool.Name" xml:space="preserve">
+    <value>قلم رصاص</value>
+  </data>
+  <data name="Menu.Edit.Undo.Text" xml:space="preserve">
+    <value>&amp;تراجع</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.ScaleLabel" xml:space="preserve">
+    <value>تحجيم</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.HeaderPan.Text" xml:space="preserve">
+    <value>تحريك</value>
+  </data>
+  <data name="CommonAction.ZoomIn" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="ImportFromFileAction.Name" xml:space="preserve">
+    <value>استيراد من ملف</value>
+  </data>
+  <data name="PdnInfo.FullAppName.Format" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="PasteInToNewImageAction.Error.NoClipboardImage" xml:space="preserve">
+    <value>لا توجد صورة صالحة في الحافظة.</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.StartupState" xml:space="preserve">
+    <value>جارٍ التهيئة</value>
+  </data>
+  <data name="ImportFromFileAction.AskForCanvasResize.OutOfMemory" xml:space="preserve">
+    <value>نفدت الذاكرة أثناء محاولة تغيير حجم الصورة.</value>
+  </data>
+  <data name="Menu.Window.Layers.Text" xml:space="preserve">
+    <value>&amp;الطبقات</value>
+  </data>
+  <data name="LaunchLink.Error" xml:space="preserve">
+    <value>حدث خطأ أثناء فتح الارتباط.</value>
+  </data>
+  <data name="PosterizeAdjustment.ConfigDialog.LinkLevels.Description" xml:space="preserve">
+    <value>مرتبط</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.EdgeBehavior.DisplayName" xml:space="preserve">
+    <value>سلوك الحواف</value>
+  </data>
+  <data name="RadialBlurEffect.ConfigDialog.QualityDescription" xml:space="preserve">
+    <value>تُفيد الجودة المنخفضة للمعاينات السريعة والصور الصغيرة أو قيم الزاوية الصغيرة. وتُفيد الجودة العالية للإخراج النهائي والصور الكبيرة أو قيم الزاوية الكبيرة.</value>
+  </data>
+  <data name="GradientType.LinearClamped" xml:space="preserve">
+    <value>خطي</value>
+  </data>
+  <data name="WebExceptionStatus.SecureChannelFailure" xml:space="preserve">
+    <value>حدث خطأ أثناء إنشاء اتصال باستخدام SSL.</value>
+  </data>
+  <data name="LassoSelectTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم مخطط منطقة التحديد.</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.LaunchHandlingText.Text" xml:space="preserve">
+    <value>استخدم هذه الخيارات لتكوين طريقة تشغيل Paint.NET.</value>
+  </data>
+  <data name="Menu.View.ZoomToSelection.Text" xml:space="preserve">
+    <value>تكبير إلى &amp;التحديد</value>
+  </data>
+  <data name="PolarInversion.ConfigUI.EdgeBehavior.Reflect.DisplayName" xml:space="preserve">
+    <value>انعكاس</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.InputGroupBox.Text" xml:space="preserve">
+    <value>إدخال</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.HeaderText.Failure" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="UnsavedChangesDialog.CancelButton.ExplanationText" xml:space="preserve">
+    <value>العودة إلى Paint.NET</value>
+  </data>
+  <data name="BulgeEffect.BulgeAmount.Text" xml:space="preserve">
+    <value>انتفاخ</value>
+  </data>
+  <data name="GifSaveConfigWidget.PreMultiplyAlphaCheckBox.Text" xml:space="preserve">
+    <value>الضرب في قناة ألفا</value>
+  </data>
+  <data name="FlipLayerVerticalAction.Name" xml:space="preserve">
+    <value>قلب عمودي</value>
+  </data>
+  <data name="LoadImage.Error.InvalidFileName.Format" xml:space="preserve">
+    <value>اسم الملف غير صالح.
+
+&quot;{0}&quot;</value>
+  </data>
+  <data name="PasteAction.Error.TransferFromClipboard" xml:space="preserve">
+    <value>حدث خطأ أثناء الحصول على الصورة من الحافظة.</value>
+  </data>
+  <data name="PanTool.HelpText" xml:space="preserve">
+    <value>عند التكبير بدرجة كبيرة، انقر واسحب للتنقل في الصورة</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.ReadyToInstallState" xml:space="preserve">
+    <value>يجب إغلاق Paint.NET لتثبيت التحديث. بعد النقر فوق «موافق»، سيُطلب منك حفظ أي تغييرات إذا لزم الأمر.</value>
+  </data>
+  <data name="HatchStyle.ZigZag" xml:space="preserve">
+    <value>متعرج</value>
+  </data>
+  <data name="PolarInversion.Name" xml:space="preserve">
+    <value>قلب قطبي</value>
+  </data>
+  <data name="SetupWizard.NextButton.Text" xml:space="preserve">
+    <value>&amp;التالي &gt;</value>
+  </data>
+  <data name="HatchStyle.DashedHorizontal" xml:space="preserve">
+    <value>أفقي متقطع</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.DefaultToolText.Text" xml:space="preserve">
+    <value>الأداة الافتراضية:</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.DownloadingState" xml:space="preserve">
+    <value>جارٍ التنزيل</value>
+  </data>
+  <data name="MagicWandTool.HelpText" xml:space="preserve">
+    <value>انقر لتحديد منطقة ذات لون مشابه.</value>
+  </data>
+  <data name="LayerForm.AddNewLayerButton.ToolTipText" xml:space="preserve">
+    <value>إضافة طبقة جديدة</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.PanResetButton.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="Menu.Window.PreviousTab.Text" xml:space="preserve">
+    <value>&amp;علامة التبويب السابقة</value>
+  </data>
+  <data name="BlockedPluginException.UnstablePlugin" xml:space="preserve">
+    <value>من المعروف أن هذا المكون الإضافي يسبب مشكلات في الاستقرار، لذا تم حظر تحميله.</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.InputHeader.Text" xml:space="preserve">
+    <value>مدرج تكراري للإدخال</value>
+  </data>
+  <data name="BrightnessAndContrastAdjustmnet.Contrast" xml:space="preserve">
+    <value>التباين</value>
+  </data>
+  <data name="SoftenPortraitEffect.Name" xml:space="preserve">
+    <value>تنعيم صورة شخصية</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.PdnDonateBannerImage.Text" xml:space="preserve">
+    <value>شكرًا لاستخدامك Paint.NET. يمكنك التعبير عن تقديرك ودعم التطوير المستقبلي بالتبرع!</value>
+  </data>
+  <data name="AnchorEdge.Bottom" xml:space="preserve">
+    <value>أسفل</value>
+  </data>
+  <data name="PngFileType.ConfigUI.BitDepth.Bpp32.DisplayName" xml:space="preserve">
+    <value>32 بت</value>
+  </data>
+  <data name="SavePaletteDialog.TypeANameLabel.Text" xml:space="preserve">
+    <value>اكتب اسمًا للوحة الألوان:</value>
+  </data>
+  <data name="Effect.PluginErrorDialog.DoNotRestartTB.ExplanationText" xml:space="preserve">
+    <value>يغلق هذا المكون الإضافي، لكنه لا يغلق Paint.NET ولا يعيد تشغيله.</value>
+  </data>
+  <data name="HatchStyle.Percent10" xml:space="preserve">
+    <value>النسبة المئوية 10</value>
+  </data>
+  <data name="HatchStyle.Percent30" xml:space="preserve">
+    <value>النسبة المئوية 30</value>
+  </data>
+  <data name="HatchStyle.Percent05" xml:space="preserve">
+    <value>النسبة المئوية 05</value>
+  </data>
+  <data name="HatchStyle.Percent50" xml:space="preserve">
+    <value>النسبة المئوية 50</value>
+  </data>
+  <data name="HatchStyle.Percent20" xml:space="preserve">
+    <value>النسبة المئوية 20</value>
+  </data>
+  <data name="HatchStyle.Percent25" xml:space="preserve">
+    <value>النسبة المئوية 25</value>
+  </data>
+  <data name="HatchStyle.Percent75" xml:space="preserve">
+    <value>النسبة المئوية 75</value>
+  </data>
+  <data name="HatchStyle.Percent70" xml:space="preserve">
+    <value>النسبة المئوية 70</value>
+  </data>
+  <data name="HatchStyle.Percent40" xml:space="preserve">
+    <value>النسبة المئوية 40</value>
+  </data>
+  <data name="HatchStyle.Percent90" xml:space="preserve">
+    <value>النسبة المئوية 90</value>
+  </data>
+  <data name="HatchStyle.Percent60" xml:space="preserve">
+    <value>النسبة المئوية 60</value>
+  </data>
+  <data name="HatchStyle.Percent80" xml:space="preserve">
+    <value>النسبة المئوية 80</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.PanXLabel.Text" xml:space="preserve">
+    <value>تحريك على المحور X:</value>
+  </data>
+  <data name="BrightnessAndContrastAdjustment.Name" xml:space="preserve">
+    <value>السطوع / التباين</value>
+  </data>
+  <data name="ResizeAction.PerformAction.UnspecifiedError" xml:space="preserve">
+    <value>حدث خطأ غير محدد أثناء محاولة تغيير حجم الصورة.</value>
+  </data>
+  <data name="Menu.Edit.EraseSelection.Text" xml:space="preserve">
+    <value>&amp;مسح التحديد</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeSplitButton.Union.Text" xml:space="preserve">
+    <value>إضافة (اتحاد)</value>
+  </data>
+  <data name="ExpandCanvasQuestion.YesTB.ActionText" xml:space="preserve">
+    <value>&amp;توسيع لوحة الرسم</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.ZoomResetButton.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="UnfocusEffect.ConfigDialog.AmountLabel" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="Menu.File.Open.Text" xml:space="preserve">
+    <value>&amp;فتح...</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.TwistRadiusLabel.Text" xml:space="preserve">
+    <value>نصف قطر الالتواء:</value>
+  </data>
+  <data name="HistoryForm.Text" xml:space="preserve">
+    <value>السجل</value>
+  </data>
+  <data name="CanvasSizeDialog.Text" xml:space="preserve">
+    <value>حجم لوحة الرسم</value>
+  </data>
+  <data name="WebExceptionStatus.ConnectFailure" xml:space="preserve">
+    <value>تعذر الاتصال بنقطة الخدمة البعيدة على مستوى النقل.</value>
+  </data>
+  <data name="ResizeDialog.NewWidthLabel1.Text" xml:space="preserve">
+    <value>العرض:</value>
+  </data>
+  <data name="ClearOpenRecentList.Dialog.Text" xml:space="preserve">
+    <value>هل تريد بالتأكيد مسح قائمة «الملفات الأخيرة»؟</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.ResetButton.Text" xml:space="preserve">
+    <value>&amp;إعادة ضبط</value>
+  </data>
+  <data name="HatchStyle.Cross" xml:space="preserve">
+    <value>تقاطع</value>
+  </data>
+  <data name="CanvasSizeDialog.AnchorHeader.Text" xml:space="preserve">
+    <value>نقطة الارتكاز</value>
+  </data>
+  <data name="HatchStyle.Divot" xml:space="preserve">
+    <value>نقرة</value>
+  </data>
+  <data name="AddNewBlankLayer.LayerName.Format" xml:space="preserve">
+    <value>الطبقة {0}</value>
+  </data>
+  <data name="ExpiredTaskDialog.DoNotCheckForUpdatesTB.ExplanationText" xml:space="preserve">
+    <value>الخروج من Paint.NET دون التحقق من وجود تحديثات.</value>
+  </data>
+  <data name="HatchStyle.Plaid" xml:space="preserve">
+    <value>مربعات</value>
+  </data>
+  <data name="HatchStyle.Weave" xml:space="preserve">
+    <value>نسيج منسوج</value>
+  </data>
+  <data name="ResizeDialog.NewWidthLabel2.Text" xml:space="preserve">
+    <value>العرض:</value>
+  </data>
+  <data name="MeasurementUnit.Centimeter.Ratio" xml:space="preserve">
+    <value>بكسل/سم</value>
+  </data>
+  <data name="RoundedRectangleTool.StatusText.Format" xml:space="preserve">
+    <value>حجم المستطيل المحيط: {0}{1} × {2}{3}، المساحة: {4} {5}</value>
+  </data>
+  <data name="SoftenPortraitEffect.ConfigDialog.WarmthLabel" xml:space="preserve">
+    <value>الدفء</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.ImportLayers.ExplanationText" xml:space="preserve">
+    <value>تحميل ثم إضافة إلى طبقات جديدة في الصورة الحالية.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.BlueMaskCheckBox.ToolTipText" xml:space="preserve">
+    <value>تبديل معالجة القناة الزرقاء</value>
+  </data>
+  <data name="ResizeDialog.Text" xml:space="preserve">
+    <value>تغيير الحجم</value>
+  </data>
+  <data name="SetupWizard.ReadyToInstallPage.IntroText.Text.Format" xml:space="preserve">
+    <value>المثبت جاهز لتثبيت {0} على الكمبيوتر.
+
+انقر فوق «التالي» لبدء التثبيت.</value>
+  </data>
+  <data name="CurveControlRgb.Blue" xml:space="preserve">
+    <value>أزرق</value>
+  </data>
+  <data name="SaveImage.Error.SecurityException" xml:space="preserve">
+    <value>تم رفض الوصول. استخدم «ملف» -&gt; «حفظ باسم...» للحفظ في موقع أو باسم مختلف.</value>
+  </data>
+  <data name="Utility.SizeStringFromBytes.GBFormat" xml:space="preserve">
+    <value>{0} GB</value>
+  </data>
+  <data name="Utility.SizeStringFromBytes.KBFormat" xml:space="preserve">
+    <value>{0} KB</value>
+  </data>
+  <data name="ResizeDialog.ResampleMethod.Bilinear" xml:space="preserve">
+    <value>ثنائي الخطوط</value>
+  </data>
+  <data name="MoveSelectionTool.HistoryMemento.Translate" xml:space="preserve">
+    <value>تحريك التحديد</value>
+  </data>
+  <data name="MoveTool.HistoryMemento.Rotate" xml:space="preserve">
+    <value>تدوير وحدات البكسل</value>
+  </data>
+  <data name="WorkspaceOptionsConfigWidget.RulersToggleButton.ToolTipText" xml:space="preserve">
+    <value>المساطر</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionCombineModeLabel.Text" xml:space="preserve">
+    <value>وضع التحديد:</value>
+  </data>
+  <data name="LineTool.StatusText.Format" xml:space="preserve">
+    <value>الإزاحة: {0}{1} × {2}{3}، الطول: {4} {5}، الزاوية: {6}°</value>
+  </data>
+  <data name="Menu.Window.Tools.Text" xml:space="preserve">
+    <value>&amp;الأدوات</value>
+  </data>
+  <data name="UserBlendOps.OverlayBlendOp.Name" xml:space="preserve">
+    <value>تراكب</value>
+  </data>
+  <data name="PngFileType.ConfigUI.BitDepth.AutoDetect.DisplayName" xml:space="preserve">
+    <value>اكتشاف تلقائي</value>
+  </data>
+  <data name="TextConfigWidget.Error.TooSmall.Format" xml:space="preserve">
+    <value>الحجم أصغر من {0}</value>
+  </data>
+  <data name="ResamplingAlgorithm.Bicubic" xml:space="preserve">
+    <value>ثنائي التكعيب</value>
+  </data>
+  <data name="ExpandCanvasQuestion.CancelTB.ExplanationText" xml:space="preserve">
+    <value>إلغاء إجراء اللصق.</value>
+  </data>
+  <data name="RoundedRectangleTool.Name" xml:space="preserve">
+    <value>مستطيل مستدير الزوايا</value>
+  </data>
+  <data name="ClearHistory.HistoryMementoName" xml:space="preserve">
+    <value>مسح السجل</value>
+  </data>
+  <data name="GlowEffect.Name" xml:space="preserve">
+    <value>توهج</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.Uniform.Text" xml:space="preserve">
+    <value>منتظم</value>
+  </data>
+  <data name="TwistEffect.TwistAmount.Text" xml:space="preserve">
+    <value>المقدار / الاتجاه</value>
+  </data>
+  <data name="AnchorEdge.Middle" xml:space="preserve">
+    <value>الوسط</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.OpenButton.ExplanationText" xml:space="preserve">
+    <value>فتح الملف (الملفات) في علامة تبويب (علامات تبويب).</value>
+  </data>
+  <data name="PosterizeAdjustment.ConfigDialog.GreenLevels.DisplayName" xml:space="preserve">
+    <value>أخضر</value>
+  </data>
+  <data name="ColorsForm.Text" xml:space="preserve">
+    <value>الألوان</value>
+  </data>
+  <data name="Menu.View.ZoomOut.Text" xml:space="preserve">
+    <value>تصغير &amp;للخارج</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.ImportLayers.ExplanationText.NoImagesYet" xml:space="preserve">
+    <value>استيراد إلى طبقات جديدة في صورة جديدة.</value>
+  </data>
+  <data name="HatchStyle.Shingle" xml:space="preserve">
+    <value>قشرة خشبية</value>
+  </data>
+  <data name="Effects.Artistic.Submenu.Name" xml:space="preserve">
+    <value>فني</value>
+  </data>
+  <data name="UpdatesDialog.Text" xml:space="preserve">
+    <value>تحديثات Paint.NET</value>
+  </data>
+  <data name="EffectErrorMessage.ShortFormat" xml:space="preserve">
+    <value>الملف: {0}
+      اسم التأثير: {1}
+      رسالة الخطأ الكاملة: {2}
+</value>
+  </data>
+  <data name="UnsavedChangesDialog.InfoLabel.Text" xml:space="preserve">
+    <value>تحتوي الصور المفتوحة التالية على تغييرات لم تُحفظ. يمكنك النقر فوق صورة مصغرة لعرض الصورة في النافذة الرئيسية.</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.SeedHeader.Text" xml:space="preserve">
+    <value>تشويش عشوائي</value>
+  </data>
+  <data name="ResamplingAlgorithm.NearestNeighbor" xml:space="preserve">
+    <value>مبكسل</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.TransferProgress.Title" xml:space="preserve">
+    <value>جارٍ النقل...</value>
+  </data>
+  <data name="PosterizeAdjustment.ConfigDialog.RedLevels.DisplayName" xml:space="preserve">
+    <value>أحمر</value>
+  </data>
+  <data name="ToolConfigStrip.PenStartCapSplitButton.ToolTipText" xml:space="preserve">
+    <value>تبديل غطاء بداية الخط
+مفتاح الاختصار: ,</value>
+  </data>
+  <data name="GradientType.Conical" xml:space="preserve">
+    <value>مخروطي</value>
+  </data>
+  <data name="ToleranceSliderControl.Percentage.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ZoomBlurEffect.ConfigDialog.AmountLabel" xml:space="preserve">
+    <value>مقدار التكبير</value>
+  </data>
+  <data name="StatusBar.Size.Format" xml:space="preserve">
+    <value>{0}{1} × {2}{3}</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.AngleHeader.Text" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.DistanceHeader.Text" xml:space="preserve">
+    <value>المسافة</value>
+  </data>
+  <data name="JuliaFractalEffect.Name" xml:space="preserve">
+    <value>كسورية جوليا</value>
+  </data>
+  <data name="LayerForm.DeleteLayerButton.ToolTipText" xml:space="preserve">
+    <value>حذف الطبقة</value>
+  </data>
+  <data name="RectangleTool.StatusText.Format" xml:space="preserve">
+    <value>الحجم: {0}{1} × {2}{3}، المساحة: {4} {5}</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.OutputHeader.Text" xml:space="preserve">
+    <value>مدرج تكراري للإخراج</value>
+  </data>
+  <data name="CloseWorkspaceAction.SaveButton.ActionText" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="DdsFileType.Name" xml:space="preserve">
+    <value>سطح DirectDraw (DDS)</value>
+  </data>
+  <data name="LoadImage.Error.PathTooLongException" xml:space="preserve">
+    <value>اسم الملف طويل جدًا.</value>
+  </data>
+  <data name="EmbossEffect.Name" xml:space="preserve">
+    <value>نقش بارز</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.InfoText" xml:space="preserve">
+    <value>ما الإجراء الذي تريد تنفيذه على الملف (الملفات)؟</value>
+  </data>
+  <data name="LoadImage.Error.OutOfMemoryException" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لتحميل الصورة.</value>
+  </data>
+  <data name="MoveLayerUp.HistoryMementoName" xml:space="preserve">
+    <value>تحريك الطبقة إلى الأعلى</value>
+  </data>
+  <data name="GradientTool.HelpText.WhileAdjusting.Format" xml:space="preserve">
+    <value>الإزاحة: {0}{1} × {2}{3}، الطول: {4} {5}، الزاوية: {6}°. يؤدي الضغط على زر الماوس الآخر إلى تحريك العقدتين.</value>
+  </data>
+  <data name="DragDrop.OpenOrImport.OpenButton.ActionText" xml:space="preserve">
+    <value>&amp;فتح</value>
+  </data>
+  <data name="HatchStyle.Sphere" xml:space="preserve">
+    <value>كرة</value>
+  </data>
+  <data name="Menu.Window.OpenMdiList.Text" xml:space="preserve">
+    <value>&amp;إظهار قائمة الصور</value>
+  </data>
+  <data name="Menu.Help.PdnWebsite.Text" xml:space="preserve">
+    <value>&amp;موقع Paint.NET</value>
+  </data>
+  <data name="Menu.View.ZoomToWindow.Text" xml:space="preserve">
+    <value>تكبير إلى &amp;النافذة</value>
+  </data>
+  <data name="ResizeDialog.PixelsLabel2.Text" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="PdnInfo.FriendlyVersionString.Format" xml:space="preserve">
+    <value>الإصدار {0}{1}</value>
+  </data>
+  <data name="DistortSubmenu.Name" xml:space="preserve">
+    <value>تشويه</value>
+  </data>
+  <data name="Menu.Window.NextTab.Text" xml:space="preserve">
+    <value>&amp;علامة التبويب التالية</value>
+  </data>
+  <data name="Menu.File.Close.Text" xml:space="preserve">
+    <value>&amp;إغلاق</value>
+  </data>
+  <data name="ColorsForm.HsvHeader.Text" xml:space="preserve">
+    <value>HSV</value>
+  </data>
+  <data name="LayerPropertiesDialog.GeneralHeader.Text" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="CopyAction.Error.TransferToClipboard" xml:space="preserve">
+    <value>حدث خطأ أثناء نسخ الصورة إلى الحافظة.</value>
+  </data>
+  <data name="SaveConfigDialog.FileSizeText.Text.Computing.Format" xml:space="preserve">
+    <value>(جارٍ الحساب: {0}%)</value>
+  </data>
+  <data name="PencilSketchEffect.ConfigDialog.PencilTipSizeLabel" xml:space="preserve">
+    <value>حجم رأس القلم الرصاص</value>
+  </data>
+  <data name="Effects.Photo.Submenu.Name" xml:space="preserve">
+    <value>صورة فوتوغرافية</value>
+  </data>
+  <data name="BitmapLayer.Properties.BlendOp.Name" xml:space="preserve">
+    <value>وضع المزج</value>
+  </data>
+  <data name="WebExceptionStatus.MessageLengthLimitExceeded" xml:space="preserve">
+    <value>تم استلام رسالة تجاوزت الحد المحدد عند إرسال طلب أو تلقي استجابة من الخادم.</value>
+  </data>
+  <data name="SetupWizard.OptionsPage.HeaderText" xml:space="preserve">
+    <value>تكوين الخيارات</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.CheckingState" xml:space="preserve">
+    <value>جارٍ التحقق</value>
+  </data>
+  <data name="SetupWizard.LicensePage.DontAgreeButton.Text" xml:space="preserve">
+    <value>&amp;لا أوافق</value>
+  </data>
+  <data name="FontSmoothing.Smooth" xml:space="preserve">
+    <value>ناعم</value>
+  </data>
+  <data name="Menu.Help.HelpTopics.Text" xml:space="preserve">
+    <value>&amp;مواضيع التعليمات</value>
+  </data>
+  <data name="ResizeDialog.PixelsLabel1.Text" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="ExpandCanvasQuestion.NoTB.ActionText" xml:space="preserve">
+    <value>&amp;الإبقاء على حجم لوحة الرسم</value>
+  </data>
+  <data name="ExpiredTaskDialog.DoNotCheckForUpdatesTB.ActionText" xml:space="preserve">
+    <value>خ&amp;روج</value>
+  </data>
+  <data name="FrostedGlassEffect.ConfigDialog.MinScatterRadius.DisplayName" xml:space="preserve">
+    <value>أدنى نصف قطر للتبعثر</value>
+  </data>
+  <data name="AddNewBlankLayer.HistoryMementoName" xml:space="preserve">
+    <value>طبقة جديدة</value>
+  </data>
+  <data name="UpdatesDialog.InfoText.Text.ErrorState.Format" xml:space="preserve">
+    <value>حدث خطأ أثناء التحقق من وجود تحديثات.
+
+{0}</value>
+  </data>
+  <data name="JuliaFractalEffect.ConfigDialog.Zoom.DisplayName" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="ZoomConfigWidget.Error.InvalidNumber" xml:space="preserve">
+    <value>رقم غير صالح</value>
+  </data>
+  <data name="Application.Copyright.AllRightsReserved" xml:space="preserve">
+    <value>جميع الحقوق محفوظة.</value>
+  </data>
+  <data name="UnsavedChangesDialog.CancelButton.ActionText" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="LineTool.PreCurveHelpText" xml:space="preserve">
+    <value>اسحب العقد لتحني الخط (الزر الأيمن لمنحنى بيزييه)، أو اضغط Enter لإنهاء الخط، أو ارسم في مكان آخر لبدء خط جديد.</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.OutputGammaUpDown.ToolTipText" xml:space="preserve">
+    <value>غاما الإخراج</value>
+  </data>
+  <data name="BmpFileType.ConfigUI.BitDepth.DisplayName" xml:space="preserve">
+    <value>عمق البت</value>
+  </data>
+  <data name="ColorsForm.ColorPalettesButton.OpenPalettesFolder.Text" xml:space="preserve">
+    <value>&amp;فتح مجلد لوحات الألوان...</value>
+  </data>
+  <data name="PngFileType.ConfigUI.BitDepth.Bpp8.DisplayName" xml:space="preserve">
+    <value>8 بت</value>
+  </data>
+  <data name="Menu.Image.Rotate180.Text" xml:space="preserve">
+    <value>تدوير &amp;180°</value>
+  </data>
+  <data name="StatusBar.Progress.Percentage.Format" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ChooseToolDefaultsDialog.ToolConfigRow.ColorPickerBehavior.HeaderLabel.Text" xml:space="preserve">
+    <value>منتقي الألوان</value>
+  </data>
+  <data name="Utility.SizeStringFromBytes.BytesFormat" xml:space="preserve">
+    <value>{0} بايت</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.HeaderText.Success" xml:space="preserve">
+    <value>اكتمل التثبيت بنجاح</value>
+  </data>
+  <data name="BmpFileType.ConfigUI.DitherLevel.DisplayName" xml:space="preserve">
+    <value>مستوى التدرج</value>
+  </data>
+  <data name="HatchStyle.DarkDownwardDiagonal" xml:space="preserve">
+    <value>قطري داكن إلى الأسفل</value>
+  </data>
+  <data name="Layer.Properties.Name.Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="DeleteLayer.HistoryMementoName" xml:space="preserve">
+    <value>حذف الطبقة</value>
+  </data>
+  <data name="Menu.Edit.Deselect.Text" xml:space="preserve">
+    <value>&amp;إلغاء التحديد</value>
+  </data>
+  <data name="RotateAction.HistoryMementoName.Format" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="ReduceNoise.Strength.DisplayName" xml:space="preserve">
+    <value>القوة</value>
+  </data>
+  <data name="MeasurementUnit.Centimeter" xml:space="preserve">
+    <value>سنتيمتر</value>
+  </data>
+  <data name="RadialBlurEffect.ConfigDialog.QualityLabel" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Failure.Format" xml:space="preserve">
+    <value>حدث خطأ أثناء تثبيت {0}.</value>
+  </data>
+  <data name="ToolConfigStrip.PenStyleLabel.Text" xml:space="preserve">
+    <value>النمط:</value>
+  </data>
+  <data name="HatchStyle.DarkHorizontal" xml:space="preserve">
+    <value>أفقي داكن</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.ItemText.Canceling" xml:space="preserve">
+    <value>جارٍ الإلغاء...</value>
+  </data>
+  <data name="MainForm.Title.Format.Normal" xml:space="preserve">
+    <value>{0} ({1}) - {2}</value>
+  </data>
+  <data name="MoveTool.HistoryMemento.Translate" xml:space="preserve">
+    <value>تحريك وحدات البكسل</value>
+  </data>
+  <data name="CopyAction.Error.OutOfMemory" xml:space="preserve">
+    <value>لم تكن هناك ذاكرة كافية لإكمال عملية الحافظة.</value>
+  </data>
+  <data name="EllipseTool.Name" xml:space="preserve">
+    <value>شكل بيضاوي</value>
+  </data>
+  <data name="Form.CloseButton.Text" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.RoughnessLabel" xml:space="preserve">
+    <value>خشونة</value>
+  </data>
+  <data name="Menu.Tools.AntiAliasing.Text" xml:space="preserve">
+    <value>&amp;مقاومة التعرّج</value>
+  </data>
+  <data name="SetupWizard.IntroPage.QuickRB.Text" xml:space="preserve">
+    <value>سريع</value>
+  </data>
+  <data name="LineTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر للرسم باللون الأساسي، وانقر بزر الماوس الأيمن لاستخدام اللون الثانوي</value>
+  </data>
+  <data name="LayerForm.PropertiesButton.ToolTipText" xml:space="preserve">
+    <value>خصائص</value>
+  </data>
+  <data name="FileTypeCollection.AllImageTypes" xml:space="preserve">
+    <value>كل أنواع الصور</value>
+  </data>
+  <data name="AnchorEdge.Right" xml:space="preserve">
+    <value>يمين</value>
+  </data>
+  <data name="CloseWorkspaceAction.Title" xml:space="preserve">
+    <value>تغييرات غير محفوظة</value>
+  </data>
+  <data name="CurveControlLuminosity.Luminosity" xml:space="preserve">
+    <value>الإضاءة</value>
+  </data>
+  <data name="LoadImage.Error.BlankFileName" xml:space="preserve">
+    <value>اسم الملف فارغ.</value>
+  </data>
+  <data name="Untitled.FriendlyName" xml:space="preserve">
+    <value>بلا عنوان</value>
+  </data>
+  <data name="AnchorEdge.Left" xml:space="preserve">
+    <value>يسار</value>
+  </data>
+  <data name="ToolStripChooser.ChooseToolButton.Text" xml:space="preserve">
+    <value>&amp;أداة:</value>
+  </data>
+  <data name="HatchStyle.LargeCheckerBoard" xml:space="preserve">
+    <value>لوحة مربعات كبيرة</value>
+  </data>
+  <data name="CloudsEffect.ConfigDialog.ReseedButton.Text" xml:space="preserve">
+    <value>&amp;إعادة ضبط البذرة</value>
+  </data>
+  <data name="FlipDocumentHorizontalAction.Name" xml:space="preserve">
+    <value>قلب أفقي (الكل)</value>
+  </data>
+  <data name="SetupWizard.IntroPage.CustomDescription.Text" xml:space="preserve">
+    <value>يتيح لك تغيير مجلد التثبيت والخيارات المتعلقة بارتباطات أنواع الملفات والتحقق من وجود تحديثات.</value>
+  </data>
+  <data name="ToolConfigStrip.PenSizeDecButton.ToolTipText" xml:space="preserve">
+    <value>تصغير حجم الفرشاة
+مفتاح الاختصار: [ (اضغط Ctrl باستمرار للتصغير بمقدار 5)</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.QualityLabel" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeSplitButton.FixedRatio.Text" xml:space="preserve">
+    <value>نسبة ثابتة</value>
+  </data>
+  <data name="Menu.Image.FlipVertical.Text" xml:space="preserve">
+    <value>قلب &amp;عمودي</value>
+  </data>
+  <data name="LineCap2.Flat" xml:space="preserve">
+    <value>مسطح</value>
+  </data>
+  <data name="Menu.Window.ResetWindowLocations.Text" xml:space="preserve">
+    <value>&amp;إعادة تعيين مواضع النوافذ</value>
+  </data>
+  <data name="MoveTool.HistoryMemento.DropPixels" xml:space="preserve">
+    <value>إنهاء وحدات البكسل</value>
+  </data>
+  <data name="FontSmoothing.None" xml:space="preserve">
+    <value>بلا</value>
+  </data>
+  <data name="UnsavedChangesDialog.Text" xml:space="preserve">
+    <value>تغييرات غير محفوظة</value>
+  </data>
+  <data name="TextConfigWidget.FontLabel.Text" xml:space="preserve">
+    <value>الخط:</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.RedMaskCheckBox.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="ExpiredTaskDialog.InfoText" xml:space="preserve">
+    <value>انتهت صلاحية هذا الإصدار التجريبي الأولي من Paint.NET. لمواصلة استخدام Paint.NET، يجب التحديث إلى أحدث إصدار.</value>
+  </data>
+  <data name="BitmapLayerPropertiesDialog.BlendModeLabel.Text" xml:space="preserve">
+    <value>الوضع:</value>
+  </data>
+  <data name="Form.SaveButton.Text" xml:space="preserve">
+    <value>&amp;حفظ</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.FineTuningHeader.Text" xml:space="preserve">
+    <value>ضبط دقيق</value>
+  </data>
+  <data name="HatchStyle.OutlinedDiamond" xml:space="preserve">
+    <value>مُعيّن محدد المخطط</value>
+  </data>
+  <data name="PaintBucketTool.Name" xml:space="preserve">
+    <value>دلو الطلاء</value>
+  </data>
+  <data name="MedianEffect.ConfigDialog.RadiusLabel" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="GradientType.LinearReflected" xml:space="preserve">
+    <value>خطي (منعكس)</value>
+  </data>
+  <data name="CopyAction.Error.Generic" xml:space="preserve">
+    <value>حدث خطأ أثناء النسخ إلى الحافظة.</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.ItemFailureDialog.Title" xml:space="preserve">
+    <value>خطأ في النقل</value>
+  </data>
+  <data name="Menu.Edit.FillSelection.ShortcutKeysDisplayString" xml:space="preserve">
+    <value>مسافة للخلف</value>
+  </data>
+  <data name="JuliaFractalEffect.ConfigDialog.Angle.DisplayName" xml:space="preserve">
+    <value>الزاوية</value>
+  </data>
+  <data name="ColorsForm.ColorAddButton.ToolTipText" xml:space="preserve">
+    <value>إضافة لون إلى لوحة الألوان</value>
+  </data>
+  <data name="ResizeDialog.AsteriskTextLabel.Bicubic" xml:space="preserve">
+    <value>* سيُستخدم الاستيفاء ثنائي التكعيب</value>
+  </data>
+  <data name="PixelateEffect.Name" xml:space="preserve">
+    <value>فسيفساء البكسل</value>
+  </data>
+  <data name="Menu.Help.PdnSearch.Text" xml:space="preserve">
+    <value>بحث &amp;Paint.NET...</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeSplitButton.Normal.Text" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="HatchStyle.NarrowVertical" xml:space="preserve">
+    <value>عمودي ضيق</value>
+  </data>
+  <data name="ToolConfigStrip.SelectionDrawModeHeightLabel.Text" xml:space="preserve">
+    <value>الارتفاع:</value>
+  </data>
+  <data name="Menu.Image.Rotate.Text" xml:space="preserve">
+    <value>ت&amp;دوير</value>
+  </data>
+  <data name="BlurEffect.ConfigDialog.SliderLabel" xml:space="preserve">
+    <value>نصف القطر</value>
+  </data>
+  <data name="CanvasSizeAction.Name" xml:space="preserve">
+    <value>حجم لوحة الرسم</value>
+  </data>
+  <data name="WebExceptionStatus.SendFailure" xml:space="preserve">
+    <value>تعذر إرسال طلب كامل إلى الخادم البعيد.</value>
+  </data>
+  <data name="LoadImage.Error.Exception" xml:space="preserve">
+    <value>حدث خطأ غير محدد أثناء فتح الملف.</value>
+  </data>
+  <data name="ExpiredTaskDialog.GoToWebSiteTB.ActionText" xml:space="preserve">
+    <value>&amp;الانتقال إلى موقع Paint.NET</value>
+  </data>
+  <data name="ExpandCanvasQuestion.IntroText" xml:space="preserve">
+    <value>الصورة المراد لصقها أكبر من حجم لوحة الرسم. ما الإجراء الذي تريد اتخاذه؟</value>
+  </data>
+  <data name="MeasurementUnit.Pixel.Ratio" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="FragmentEffect.ConfigDialog.Fragments.DisplayName" xml:space="preserve">
+    <value>عدد الأجزاء</value>
+  </data>
+  <data name="ColorTransferMode.Rgb" xml:space="preserve">
+    <value>RGB</value>
+  </data>
+  <data name="ExpiredTaskDialog.GoToWebSiteTB.ExplanationText" xml:space="preserve">
+    <value>إذا لم ينجح التحقق من وجود تحديثات، فيمكنك الانتقال إلى موقع الويب للبحث يدويًا عن تحديث.</value>
+  </data>
+  <data name="AntiAliasingSplitButton.Disabled.Text" xml:space="preserve">
+    <value>تم تعطيل مقاومة التعرّج</value>
+  </data>
+  <data name="SoftenPortraitEffect.ConfigDialog.LightingLabel" xml:space="preserve">
+    <value>الإضاءة</value>
+  </data>
+  <data name="CurvesEffectConfigDialog.HelpText.Text" xml:space="preserve">
+    <value>تلميح: انقر بزر الماوس الأيمن لإزالة نقاط التحكم.</value>
+  </data>
+  <data name="SplashForm.StatusLabel.Text" xml:space="preserve">
+    <value>جارٍ البدء...</value>
+  </data>
+  <data name="MainForm.Title.Format.Minimized" xml:space="preserve">
+    <value>{0} - {1}</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.PanYLabel.Text" xml:space="preserve">
+    <value>تحريك على المحور Y:</value>
+  </data>
+  <data name="ColorDisplayWidget.ForeColorRectangle.ToolTipText" xml:space="preserve">
+    <value>أساسي</value>
+  </data>
+  <data name="DocumentWorkspace.ShowFileDialog.ItemFailureDialog.IntroText.Format" xml:space="preserve">
+    <value>حدث خطأ أثناء نقل الصورة:
+
+{0}</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.RangeFit.Text" xml:space="preserve">
+    <value>ملاءمة النطاق (سريع/جودة منخفضة)</value>
+  </data>
+  <data name="HatchStyle.WideUpwardDiagonal" xml:space="preserve">
+    <value>قطري عريض إلى الأعلى</value>
+  </data>
+  <data name="AcquireImageAction.Error.Clipboard.OutOfMemory" xml:space="preserve">
+    <value>لا توجد ذاكرة كافية لنسخ الصورة من الحافظة.</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.RollResetButton.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.HeaderText.Installing" xml:space="preserve">
+    <value>جارٍ التثبيت</value>
+  </data>
+  <data name="Updates.DownloadingState.GenericError" xml:space="preserve">
+    <value>حدث خطأ غير محدد أثناء تنزيل التحديث.</value>
+  </data>
+  <data name="Menu.Edit.SelectAll.Text" xml:space="preserve">
+    <value>تحديد &amp;الكل</value>
+  </data>
+  <data name="AboutDialog.Text.Format" xml:space="preserve">
+    <value>حول {0}</value>
+  </data>
+  <data name="DownloadAndUnzipUpdateDialog.Description.Extracting" xml:space="preserve">
+    <value>جارٍ الاستخراج...</value>
+  </data>
+  <data name="DdsFileType.SaveConfigWidget.Perceptual.Text" xml:space="preserve">
+    <value>إدراكي</value>
+  </data>
+  <data name="MotionBlurEffectConfigDialog.PixelsLabel.Text" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="WebExceptionStatus.NameResolutionFailure" xml:space="preserve">
+    <value>تعذر على خدمة تحليل الأسماء حل اسم المضيف.</value>
+  </data>
+  <data name="SavePaletteDialog.PalettesLabel.Text" xml:space="preserve">
+    <value>لوحات الألوان المحفوظة مسبقًا:</value>
+  </data>
+  <data name="LineTool.Name" xml:space="preserve">
+    <value>خط / منحنى</value>
+  </data>
+  <data name="MeasurementUnit.Centimeter.Plural" xml:space="preserve">
+    <value>سنتيمترات</value>
+  </data>
+  <data name="ColorsForm.ColorPalettesButton.ToolTipText" xml:space="preserve">
+    <value>إدارة لوحات الألوان</value>
+  </data>
+  <data name="DentsEffect.ConfigDialog.RefractionLabel" xml:space="preserve">
+    <value>انكسار</value>
+  </data>
+  <data name="TextConfigWidget.AlignCenterButton.ToolTipText" xml:space="preserve">
+    <value>محاذاة إلى الوسط</value>
+  </data>
+  <data name="ZoomTool.Name" xml:space="preserve">
+    <value>تكبير</value>
+  </data>
+  <data name="SharpenEffect.Name" xml:space="preserve">
+    <value>زيادة الحدة</value>
+  </data>
+  <data name="OutlineEffect.ConfigDialog.ThicknessLabel" xml:space="preserve">
+    <value>السُمك</value>
+  </data>
+  <data name="ToolConfigStrip.FloodModeLabel.Text" xml:space="preserve">
+    <value>وضع التعبئة:</value>
+  </data>
+  <data name="LevelsEffectConfigDialog.ResetButton.Text" xml:space="preserve">
+    <value>إعادة ضبط</value>
+  </data>
+  <data name="UpdatesDialog.ContinueButton.Text.InstallingState" xml:space="preserve">
+    <value>جارٍ التثبيت</value>
+  </data>
+  <data name="HatchStyle.Vertical" xml:space="preserve">
+    <value>عمودي</value>
+  </data>
+  <data name="PngFileType.ConfigUI.Threshold.Description" xml:space="preserve">
+    <value>ستكون وحدات البكسل التي تقل قيمة ألفا فيها عن الحد الأدنى شفافة تمامًا.</value>
+  </data>
+  <data name="Menu.File.OpenRecent.None" xml:space="preserve">
+    <value>(لا شيء)</value>
+  </data>
+  <data name="Menu.File.OpenRecent.Text" xml:space="preserve">
+    <value>فتح &amp;الأخيرة</value>
+  </data>
+  <data name="NewImageAction.Name" xml:space="preserve">
+    <value>صورة جديدة</value>
+  </data>
+  <data name="SetupWizard.MustCloseAppFirst.Text" xml:space="preserve">
+    <value>تأكد من إغلاق Paint.NET، ثم انقر فوق «إعادة المحاولة». أو اضغط «إلغاء» للخروج من معالج التثبيت.</value>
+  </data>
+  <data name="ZoomConfigWidget.ZoomOutButton.ToolTipText" xml:space="preserve">
+    <value>تصغير</value>
+  </data>
+  <data name="TileEffect.Quality.Text" xml:space="preserve">
+    <value>الجودة</value>
+  </data>
+  <data name="WebExceptionStatus.TrustFailure" xml:space="preserve">
+    <value>تعذر التحقق من صحة شهادة الخادم.</value>
+  </data>
+  <data name="LineCap2.ArrowFilled" xml:space="preserve">
+    <value>سهم ممتلئ</value>
+  </data>
+  <data name="RoundedRectangleTool.HelpText" xml:space="preserve">
+    <value>انقر واسحب لرسم مستطيل مستدير الزوايا (انقر بزر الماوس الأيمن لاستخدام اللون الثانوي). اضغط باستمرار على Shift لتقييد الشكل.</value>
+  </data>
+  <data name="TileEffect.Name" xml:space="preserve">
+    <value>انعكاس البلاطات</value>
+  </data>
+  <data name="ExecuteFunction.ProgressDialog.Description.Text" xml:space="preserve">
+    <value>يرجى الانتظار...</value>
+  </data>
+  <data name="Menu.View.Text" xml:space="preserve">
+    <value>&amp;عرض</value>
+  </data>
+  <data name="SetupWizard.ReadyToInstallPage.HeaderText" xml:space="preserve">
+    <value>تأكيد التثبيت</value>
+  </data>
+  <data name="ColorsForm.AlphaHeader.Text" xml:space="preserve">
+    <value>الشفافية - ألفا</value>
+  </data>
+  <data name="ColorPickerTool.HelpText" xml:space="preserve">
+    <value>انقر بزر الماوس الأيسر لتعيين اللون الأساسي، وانقر بزر الماوس الأيمن لتعيين اللون الثانوي</value>
+  </data>
+  <data name="ExecuteFunction.GenericOutOfMemory" xml:space="preserve">
+    <value>لم تكن هناك ذاكرة كافية لتنفيذ الإجراء.</value>
+  </data>
+  <data name="CloseWorkspaceAction.DontSaveButton.ActionText" xml:space="preserve">
+    <value>ع&amp;دم الحفظ</value>
+  </data>
+  <data name="RotateZoomEffectConfigDialog.AngleLabel.Text" xml:space="preserve">
+    <value>الزاوية:</value>
+  </data>
+  <data name="TextConfigWidget.Error.TooLarge.Format" xml:space="preserve">
+    <value>الحجم أكبر من {0}</value>
+  </data>
+  <data name="VignetteEffect.ConfigDialog.DensityLabel" xml:space="preserve">
+    <value>الكثافة</value>
+  </data>
+  <data name="CommonAction.New" xml:space="preserve">
+    <value>جديد</value>
+  </data>
+  <data name="CommonAction.Cut" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="UnsavedChangesDialog.DontSaveButton.ExplanationText" xml:space="preserve">
+    <value>تجاهل جميع التغييرات غير المحفوظة، ثم الخروج.</value>
+  </data>
+  <data name="TgaFileType.ConfigUI.BitDepth.AutoDetect.DisplayName" xml:space="preserve">
+    <value>اكتشاف تلقائي</value>
+  </data>
+  <data name="SetupWizard.InstallingPage.InfoText.Text.Uninstalling" xml:space="preserve">
+    <value>إزالة الإصدار السابق...</value>
+  </data>
+  <data name="WorkspaceOptionsConfigWidget.DrawGridToggleButton.ToolTipText" xml:space="preserve">
+    <value>إظهار الشبكة عند التكبير</value>
+  </data>
+  <data name="LayerForm.Text" xml:space="preserve">
+    <value>الطبقات</value>
+  </data>
+  <data name="GradientChannels.AlphaChannelOnly.Text" xml:space="preserve">
+    <value>وضع الشفافية</value>
+  </data>
+  <data name="AcquireImageAction.Error.Clipboard.TransferError" xml:space="preserve">
+    <value>حدث خطأ أثناء نقل الصورة من الحافظة.</value>
+  </data>
+  <data name="CurveControlRgb.Red" xml:space="preserve">
+    <value>أحمر</value>
+  </data>
+  <data name="GradientTool.HelpText.Adjustable" xml:space="preserve">
+    <value>اسحب العقدة لضبط التدرج. انقر بزر الماوس الأيمن على العقدة لتبديل الألوان. اضغط Enter للإنهاء أو Esc للتراجع.</value>
+  </data>
+  <data name="SaveAs.OverwriteConfirmation.Text.Format" xml:space="preserve">
+    <value>{0} موجود بالفعل.
+هل تريد استبداله؟</value>
+  </data>
+  <data name="PosterizeAdjustment.ConfigDialog.BlueLevels.DisplayName" xml:space="preserve">
+    <value>أزرق</value>
+  </data>
+  <data name="LayerPropertyChanging.HistoryMementoNameFormat" xml:space="preserve">
+    <value>الطبقة {0}</value>
+  </data>
+</root>
