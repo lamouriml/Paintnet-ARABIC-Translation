@@ -259,7 +259,7 @@
 | العربية | English |
 |---|---|
 | اكتشاف الحواف | Edge Detect |
-| نقش بارز - تنميق | Emboss |
+| نحت بارز - تنميق | Emboss |
 | زجاج مصنفر | Frosted Glass |
 | توهج | Glow |
 | مخطط | Outline |

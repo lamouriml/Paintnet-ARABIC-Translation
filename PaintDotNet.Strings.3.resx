@@ -1278,7 +1278,7 @@ www.getpaint.net</value>
     <value>&amp;الأدوات</value>
   </data>
   <data name="ReliefEffect.Name" xml:space="preserve">
-    <value>نقش بارز</value>
+    <value>نحت بارز</value>
   </data>
   <data name="CloseWorkspaceAction.IntroText.Format" xml:space="preserve">
     <value>لدى {0} تغييرات غير محفوظة. ما الإجراء الذي تريد اتخاذه؟</value>
@@ -2731,7 +2731,7 @@ PROPERTY=VALUE  -  تعيين خاصية MSI. راجع ملف التعليمات
     <value>اسم الملف طويل جدًا.</value>
   </data>
   <data name="EmbossEffect.Name" xml:space="preserve">
-    <value>نقش بارز</value>
+    <value>نحت بارز</value>
   </data>
   <data name="DragDrop.OpenOrImport.InfoText" xml:space="preserve">
     <value>ما الإجراء الذي تريد تنفيذه على الملف (الملفات)؟</value>
